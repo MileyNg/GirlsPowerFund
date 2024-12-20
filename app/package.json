@@ -5,9 +5,11 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "i18next": "^24.2.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
