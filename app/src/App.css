@@ -6,14 +6,16 @@
 }
 
 .App h1 {
-  font-size: calc(8px + 5vmin);
-	font-weight: bold;
-	color: #49347C; /* color for the heading */
+  font-size: calc(25px + 5vmin);
+  font-weight: bold;
+  color: #49347C;
+  /* color for the heading */
 }
 
 .App p {
   font-family: 'Inter';
-	color: #14142B; /* color for the paragraph */
+  color: #14142B;
+  /* color for the paragraph */
 }
 
 .App-header {
@@ -31,6 +33,93 @@
   color: #61dafb;
 }
 
-.language-dropdown-toggle::after {
-  display: none;
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  /* Space between buttons */
+}
+
+.social-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 25px;
+  /* Adds padding for button size */
+  color: #6a4c9c;
+  /* Purple background for the button */
+  background-color: white;
+  border-radius: 30px;
+  /* Rounded edges for the button */
+  border: 2px solid #6a4c9c;
+  /* Purple border */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-buttons a:hover {
+  background-color: #4e3586;
+  /* Darker shade for hover effect */
+}
+
+/* General Container */
+.text-image-container {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.text-section {
+  text-align: left;
+}
+
+.image-section img {
+  width: 100%;
+  /* Makes the image responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 20px;
+  /* Adds rounded corners to the image */
+}
+
+.cards-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: #5a5a5a;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  margin: 0 1rem 1rem;
+  color: #7a7a7a;
+  line-height: 1.5;
 }

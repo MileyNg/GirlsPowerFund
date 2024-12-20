@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../img/home_1.png";
-import "./component.css";
+import "../App.css";
 import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 function TextImage() {
@@ -21,14 +21,14 @@ function TextImage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram /> Instagram
+            <FaInstagram className="me-2" /> Instagram
           </a>
           <a
             href="https://telegram.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTelegramPlane /> Telegram
+            <FaTelegramPlane className="me-2" /> Telegram
           </a>
         </div>
       </div>

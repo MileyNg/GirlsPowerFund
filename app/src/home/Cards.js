@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cards.css"; // Optional: For styling
+import "../App.css"; 
 
 function Cards() {
   const cardData = [

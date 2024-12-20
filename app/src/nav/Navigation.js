@@ -1,10 +1,10 @@
-import { Navbar, Nav, NavDropdown, Container, Dropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container, Dropdown } from "react-bootstrap";
 import "../App.css";
+import "./Navigation.css";
 import Logo from "../img/Logo.png";
 import "../components/languages";
 import { useTranslation } from "react-i18next";
-import { FaGlobe } from 'react-icons/fa';
-
+import { FaGlobe } from "react-icons/fa";
 
 function Navigation() {
   const { t, i18n } = useTranslation();
@@ -68,17 +68,36 @@ function Navigation() {
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
-            <Dropdown align="end">
-              <Dropdown.Toggle variant="light" id="dropdown-basic" className="language-dropdown-toggle">
+            <Dropdown align="end" className="language-button">
+              <Dropdown.Toggle
+                variant="light"
+                id="dropdown-basic"
+                className="language-dropdown-toggle language-button"
+              >
                 {i18n.language.toUpperCase()}
-                <FaGlobe  className="ms-1 mb-1"/>
+                <FaGlobe className="ms-2" />
               </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item onClick={() => changeLanguage('en')}>EN</Dropdown.Item>
-                <Dropdown.Item onClick={() => changeLanguage('de')}>DE</Dropdown.Item>
-                <Dropdown.Item onClick={() => changeLanguage('ru')}>RU</Dropdown.Item>
+              <Dropdown.Menu className="language-dropdown-menu">
+                <Dropdown.Item onClick={() => changeLanguage("en")}>
+                  English
+                </Dropdown.Item>
+                <Dropdown.Item onClick={() => changeLanguage("de")}>
+                  Deutsch
+                </Dropdown.Item>
+                <Dropdown.Item onClick={() => changeLanguage("ru")}>
+                  Russian
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
+            <div className="donate-button ms-2">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DONATE
+              </a>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
