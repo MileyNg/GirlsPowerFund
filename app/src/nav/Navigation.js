@@ -6,6 +6,8 @@ import "../App.css";
 import Logo from "../img/Logo.png";
 import "../components/languages";
 import { useTranslation } from "react-i18next";
+import { FaGlobe } from 'react-icons/fa';
+
 
 function Navigation() {
   const { t, i18n } = useTranslation();
