@@ -28,16 +28,18 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link href="#home" className="mx-3">
-            {t("home")}
+              {t("home")}
             </Nav.Link>
             <NavDropdown title={t("aboutus")} id="#AboutUs" className="mx-3">
               <NavDropdown.Item href="#OurTeam">
                 {t("ourteam")}
               </NavDropdown.Item>
               <NavDropdown.Item href="#NewsAndMediaMentions">
-              {t("newsandmediamentions")}
+                {t("newsandmediamentions")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#ContactUs">{t("contactus")}</NavDropdown.Item>
+              <NavDropdown.Item href="#ContactUs">
+                {t("contactus")}
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               title={t("getinvolved")}
@@ -45,23 +47,25 @@ function Navigation() {
               className="mx-3"
             >
               <NavDropdown.Item href="#WaysToSupport">
-              {t("waystosupport")}
+                {t("waystosupport")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Volunteer">{t("volunteer")}</NavDropdown.Item>
+              <NavDropdown.Item href="#Volunteer">
+                {t("volunteer")}
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title={t("programs")} id="#Programs" className="mx-3">
               <NavDropdown.Item href="#CodingBootcamp">
-              {t("codingbootcamp")}
+                {t("codingbootcamp")}
               </NavDropdown.Item>
               <NavDropdown.Item href="#TutoringProgram">
-              {t("tutoringprogram")}
+                {t("tutoringprogram")}
               </NavDropdown.Item>
               <NavDropdown.Item href="#Entrepreneurship">
-              {t("entrepreneurship")}
+                {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#Impact" className="mx-3">
-            {t("impact")}
+              {t("impact")}
             </Nav.Link>
           </Nav>
           <Nav>
@@ -69,17 +73,23 @@ function Navigation() {
               Dank memes
             </Nav.Link>
             <button
-            className="btn btn-light ms-auto"
-            onClick={() => changeLanguage("de")}
-          >
-            de
-          </button>
-          <button
-            className="btn btn-light ms-2"
-            onClick={() => changeLanguage("en")}
-          >
-            en
-          </button>
+              className="btn btn-light ms-auto"
+              onClick={() => changeLanguage("de")}
+            >
+              de
+            </button>
+            <button
+              className="btn btn-light ms-2"
+              onClick={() => changeLanguage("en")}
+            >
+              en
+            </button>
+            <button
+              className="btn btn-light ms-2"
+              onClick={() => changeLanguage("ru")}
+            >
+              ru
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>
