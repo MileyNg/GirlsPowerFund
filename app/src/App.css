@@ -2,11 +2,11 @@
   text-align: center;
   background-color: #f3eff7;
   font-family: 'Source Code Pro';
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
 }
 
 .App h1 {
-  font-size: calc(10px + 5vmin);
+  font-size: calc(8px + 2vmin);
 	font-weight: bold;
 	color: #49347C; /* color for the heading */
 }
@@ -23,7 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
 }
 
