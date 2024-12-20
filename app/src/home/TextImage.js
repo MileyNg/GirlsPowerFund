@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../img/home_1.png";
 import "./component.css";
+import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 function TextImage() {
   return (
@@ -20,14 +21,14 @@ function TextImage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            <FaInstagram /> Instagram
           </a>
           <a
             href="https://telegram.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Telegram
+            <FaTelegramPlane /> Telegram
           </a>
         </div>
       </div>
