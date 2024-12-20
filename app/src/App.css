@@ -1,11 +1,19 @@
 .App {
   text-align: center;
   background-color: #f3eff7;
+  font-family: 'Source Code Pro';
+  font-size: calc(10px + 2vmin);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  font-size: calc(10px + 5vmin);
+	font-weight: bold;
+	color: #49347C; /* color for the heading */
+}
+
+.App p {
+  font-family: 'Inter';
+	color: #14142B; /* color for the paragraph */
 }
 
 .App-header {
@@ -21,9 +29,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-.Navigation {
-  background-color: #f3eff7;
-  font-family: 'Source Code Pro';
 }
