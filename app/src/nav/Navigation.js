@@ -1,7 +1,4 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Navbar, Nav, NavDropdown, Container, Dropdown } from 'react-bootstrap';
 import "../App.css";
 import Logo from "../img/Logo.png";
 import "../components/languages";
@@ -21,7 +18,7 @@ function Navigation() {
         <Navbar.Brand href="#home">
           <img
             src={Logo}
-            className="App-Logo"
+            className="App-Logo d-inline-block"
             alt="logo"
             style={{ width: "50px", height: "50px" }}
           />
@@ -70,28 +67,18 @@ function Navigation() {
               {t("impact")}
             </Nav.Link>
           </Nav>
-          <Nav>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-            <button
-              className="btn btn-light ms-auto"
-              onClick={() => changeLanguage("de")}
-            >
-              de
-            </button>
-            <button
-              className="btn btn-light ms-2"
-              onClick={() => changeLanguage("en")}
-            >
-              en
-            </button>
-            <button
-              className="btn btn-light ms-2"
-              onClick={() => changeLanguage("ru")}
-            >
-              ru
-            </button>
+          <Nav className="ml-auto">
+            <Dropdown align="end">
+              <Dropdown.Toggle variant="light" id="dropdown-basic" className="language-dropdown-toggle">
+                {i18n.language.toUpperCase()}
+                <FaGlobe  className="ms-1 mb-1"/>
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item onClick={() => changeLanguage('en')}>EN</Dropdown.Item>
+                <Dropdown.Item onClick={() => changeLanguage('de')}>DE</Dropdown.Item>
+                <Dropdown.Item onClick={() => changeLanguage('ru')}>RU</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
