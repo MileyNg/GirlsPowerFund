@@ -3,6 +3,7 @@ import Navigation from "./nav/Navigation";
 import TextImage from "./home/TextImage";
 import Cards from "./home/Cards";
 import Quote from "./home/Quote";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }

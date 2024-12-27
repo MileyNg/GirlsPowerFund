@@ -30,7 +30,11 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #b7a8e9;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #b7a8e9; 
 }
 
 .social-buttons {
@@ -44,20 +48,16 @@
   align-items: center;
   justify-content: center;
   padding: 12px 25px;
-  /* Adds padding for button size */
-  color: #6a4c9c;
-  /* Purple background for the button */
+  color: #49347c;
   background-color: white;
   border-radius: 30px;
-  /* Rounded edges for the button */
-  border: 2px solid #6a4c9c;
-  /* Purple border */
+  border: 2px solid #49347c;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .social-buttons a:hover {
-  background-color: #4e3586;
+  background-color: #49347c;
   /* Darker shade for hover effect */
 }
 
@@ -76,11 +76,8 @@
 
 .image-section img {
   width: 100%;
-  /* Makes the image responsive */
   height: auto;
-  /* Maintain aspect ratio */
   border-radius: 20px;
-  /* Adds rounded corners to the image */
 }
 
 .cards-container {

@@ -13,11 +13,10 @@
   
   .language-dropdown-toggle:hover,
   .dropdown-menu.show .language-dropdown-toggle {
-    background-color: #4e3586;
+    background-color: #49347c;
     color: white;
   }
   
-  /* Hide the default caret */
   .language-dropdown-toggle::after {
     display: none;
   }
@@ -32,14 +31,10 @@
     align-items: center;
     justify-content: center;
     padding: 12px 25px;
-    /* Adds padding for button size */
     color: white;
-    /* Purple background for the button */
     background-color: #4e3586;
     border-radius: 30px;
-    /* Rounded edges for the button */
     border: 2px solid #6a4c9c;
-    /* Purple border */
     text-decoration: none;
     transition: background-color 0.3s ease;
     font-size: 85%;
