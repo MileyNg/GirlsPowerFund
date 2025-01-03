@@ -17,6 +17,12 @@ const resources = {
       tutoringprogram: "Tutoring Program",
       entrepreneurship: "Entrepreneurship",
       impact: "Impact",
+      home1:
+        "A platform to empower girls and young women through STEM and entrepreneurship education, mentorship, and opportunities, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
+      homequote1:
+        "Empowering the Next Generation of Innovators Through HANDS-ON LEARNING...",
+      homequote2:
+        "Explore our programs designed to INSPIRE growth and EMPOWER change!",
     },
   },
   de: {
@@ -34,6 +40,8 @@ const resources = {
       tutoringprogram: "Tutoring Programm",
       entrepreneurship: "Entrepreneurship",
       impact: "Impact",
+      home1:
+        "Eine Plattform zur Stärkung von Mädchen und jungen Frauen durch Bildung in den Bereichen MINT und Unternehmertum, Mentoring und Möglichkeiten, die ihre Fähigkeiten, ihr Selbstbewusstsein und ihre Führungsqualitäten fördern, um in einer technologiegetriebenen Welt erfolgreich zu sein.",
     },
   },
   ru: {
@@ -51,6 +59,8 @@ const resources = {
       tutoringprogram: "Программа репетиторства",
       entrepreneurship: "Предпринимательство",
       impact: "Влияние",
+      home1:
+        "Платформа для расширения возможностей девочек и молодых женщин через образование в области STEM и предпринимательства, наставничество и предоставление возможностей, способствующих развитию их навыков, уверенности и лидерских качеств для успеха в технологически развитом мире.",
     },
   },
 };
