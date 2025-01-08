@@ -1,8 +1,23 @@
-.footer p {
+.footer p,
+a {
     color: #49347c;
+    font-size: 1.25rem;
 }
 
-.question-box, .question-box p {
+.textalign-left {
+    text-align: left;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.image-border {
+    border-radius: 25px;
+}
+
+.question-box,
+.question-box p {
     background-color: #49347c;
     color: white;
 }
@@ -18,7 +33,6 @@
 
 .social-button {
     display: flex;
-    align-items: center;
     justify-content: center;
     color: #49347c;
     background-color: #e3daf5;
@@ -31,4 +45,8 @@
 
 .social-button:hover {
     background-color: #b7a8e9;
+}
+
+.copyright {
+    font-size: 1rem;
 }

@@ -13,7 +13,7 @@ function Navigation() {
     i18n.changeLanguage(lang);
   };
   return (
-    <Navbar collapseOnSelect expand="lg" className="Navigation">
+    <Navbar collapseOnSelect expand="xl" className="Navigation">
       <Container>
         <Navbar.Brand href="#home">
           <img

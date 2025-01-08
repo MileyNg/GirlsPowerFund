@@ -37,6 +37,6 @@
     border: 2px solid #6a4c9c;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    font-size: 85%;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 400;
   }

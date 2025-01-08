@@ -15,7 +15,10 @@
 .App p {
   font-family: 'Inter';
   color: #14142B;
-  /* color for the paragraph */
+}
+
+.App a {
+  font-size: 1.25rem;
 }
 
 .App-header {
