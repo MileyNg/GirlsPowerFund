@@ -6,6 +6,7 @@ const resources = {
     translation: {
       home: "Home",
       aboutus: "About Us",
+      ourstory: "Our Story",
       ourteam: "Our Team",
       newsandmediamentions: "News and Media Mentions",
       contactus: "Contact Us",
@@ -14,7 +15,6 @@ const resources = {
       volunteer: "Volunteer",
       programs: "Programs",
       codingbootcamp: "Coding Bootcamp",
-      tutoringprogram: "Tutoring Program",
       entrepreneurship: "Entrepreneurship",
       impact: "Impact",
     },
@@ -23,6 +23,7 @@ const resources = {
     translation: {
       home: "Home",
       aboutus: "Über uns",
+      ourstory: "Unsere Geschichte",
       ourteam: "Unser Team",
       newsandmediamentions: "Presseerwähnungen",
       contactus: "Kontaktiere Uns",
@@ -31,7 +32,6 @@ const resources = {
       volunteer: "Volunteer",
       programs: "Programme",
       codingbootcamp: "Coding Bootcamp",
-      tutoringprogram: "Tutoring Programm",
       entrepreneurship: "Entrepreneurship",
       impact: "Impact",
     },
@@ -40,6 +40,7 @@ const resources = {
     translation: {
       home: "Главная",
       aboutus: "О нас",
+      ourstory: "Our Story",
       ourteam: "Наша команда",
       newsandmediamentions: "Новости и упоминания в СМИ",
       contactus: "Свяжитесь с нами",
@@ -48,7 +49,6 @@ const resources = {
       volunteer: "Стать волонтером",
       programs: "Программы",
       codingbootcamp: "Кодинг-буткэмп",
-      tutoringprogram: "Программа репетиторства",
       entrepreneurship: "Предпринимательство",
       impact: "Влияние",
     },

@@ -11,21 +11,20 @@ import ProfilePic from "../img/profilepic.png";
 import Grouppic from "../img/grouppic.png";
 import Groupmeeting from "../img/groupmeeting.png";
 import Dinnerpic from "../img/dinnerpic.png";
-import "../App.css";
 import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="bg-purple  py-5 footer">
+    <footer className="bg-purple py-5 footer">
       <Container>
         {/* Top Section */}
-        <Row className="mb-5 text-center question-box">
+        <Row className="mb-5 text-center">
           <Col className="question-box">
-            <h3>Have a Question? We can Help!</h3>
-            <p>We typically respond within 72 hours!</p>
+            <h3 className="font-source">Have a Question? We can Help!</h3>
+            <div className="footer-font font-white">We typically respond within 72 hours!</div>
             <a
               href="mailto:girlspowerfund@gmail.com"
-              className="question-box fw-bold"
+              className="font-white"
             >
               girlspowerfund@gmail.com
             </a>
@@ -35,21 +34,21 @@ function Footer() {
         <Row className="mb-4">
           {/* About Us */}
           <Col md={4}>
-            <Row className="align-center">
-              <Col md={4}>
+            <Row className="align-center mt-20">
+              <Col md={3}>
                 <Image
                   src={Logo}
-                  width="50"
-                  height="50"
+                  width="70"
+                  height="70"
                   alt="Logo"
-                  className="mb-3"
+                  className="mb-1"
                 />
               </Col>
-              <Col md={8}>
+              <Col md={9} className="textalign-left">
                 <h5>Girls Power Fund</h5>
               </Col>
             </Row>
-            <p className="textalign-left">
+            <p className="textalign-left footer-font">
               Girls Power Fund is a platform to empower girls and young women
               through STEM and entrepreneurship education, mentorship, and
               opportunities, fostering their skills, confidence, and leadership
@@ -58,41 +57,91 @@ function Footer() {
           </Col>
           {/* Program Links */}
           <Col md={2}>
-            <h5>Program</h5>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link href="#" className="p-0 mb-3 textalign-left">
+                Program
+              </Nav.Link>
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Coding Bootcamp
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Tutoring Program
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Entrepreneurship
+              </Nav.Link>
+            </Nav>
+            <Nav className="flex-column">
+              <Nav.Link href="#" className="p-0 mb-3 mt-3 textalign-left">
+                Get Involved
+              </Nav.Link>
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
+                Ways to support
+              </Nav.Link>
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
+                Volunteer
               </Nav.Link>
             </Nav>
           </Col>
           {/* About Links */}
-          <Col md={2}>
-            <h5>About Us</h5>
+          <Col md={3}>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link href="#" className="p-0 mb-3 textalign-left">
+                About Us
+              </Nav.Link>
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Our Team
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Our Approach
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 News and Media Mentions
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Girl Power Fund History
               </Nav.Link>
-              <Nav.Link href="#" className="p-0 mb-1 textalign-left">
+              <Nav.Link
+                href="#"
+                className="p-0 mb-1 textalign-left footer-font"
+              >
                 Financial Information
               </Nav.Link>
             </Nav>
+            <Nav className="flex-column">
+              <Nav.Link href="#" className="p-0 mb-3 mt-3 textalign-left">
+                Impact
+              </Nav.Link>
+            </Nav>
           </Col>
-          <Col md={4}>
+          <Col md={3}>
             <h5 className="mb-4">Follow on Instagram</h5>
             <Row>
               <Col xs={6}>
@@ -111,10 +160,10 @@ function Footer() {
           </Col>
         </Row>
         <Row className="border-top pt-3 align-center">
-          <Col md={8} className="text-start copyright">
+          <Col md={9} className="text-start copyright">
             © 2024 Girls Power Fund | All Rights Reserved
           </Col>
-          <Col md={4} className="text-end">
+          <Col md={3} className="justify-items-end">
             <Nav>
               <Nav.Link href="#" className="social-button ms-3">
                 <FaTelegramPlane size={20} />

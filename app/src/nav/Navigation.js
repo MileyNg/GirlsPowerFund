@@ -1,5 +1,4 @@
 import { Navbar, Nav, NavDropdown, Container, Dropdown } from "react-bootstrap";
-import "../App.css";
 import "./Navigation.css";
 import Logo from "../img/Logo.png";
 import "../components/languages";
@@ -15,7 +14,7 @@ function Navigation() {
   return (
     <Navbar collapseOnSelect expand="xl" className="Navigation">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={Logo}
             className="App-Logo d-inline-block"
@@ -26,38 +25,23 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#home" className="mx-3">
+            <Nav.Link href="/" className="mx-3">
               {t("home")}
             </Nav.Link>
-            <NavDropdown title={t("aboutus")} id="#AboutUs" className="mx-3">
+            <NavDropdown title={<Nav.Link href="/aboutus">{t("aboutus")}</Nav.Link>} id="#AboutUs" className="mx-3">
               <NavDropdown.Item href="#OurTeam">
                 {t("ourteam")}
               </NavDropdown.Item>
               <NavDropdown.Item href="#NewsAndMediaMentions">
                 {t("newsandmediamentions")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#ContactUs">
-                {t("contactus")}
-              </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown
-              title={t("getinvolved")}
-              id="#GetInvolved"
-              className="mx-3"
-            >
-              <NavDropdown.Item href="#WaysToSupport">
-                {t("waystosupport")}
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#Volunteer">
-                {t("volunteer")}
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/getinvolved" className="mx-3">
+              {t("getinvolved")}
+            </Nav.Link>
             <NavDropdown title={t("programs")} id="#Programs" className="mx-3">
               <NavDropdown.Item href="#CodingBootcamp">
                 {t("codingbootcamp")}
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#TutoringProgram">
-                {t("tutoringprogram")}
               </NavDropdown.Item>
               <NavDropdown.Item href="#Entrepreneurship">
                 {t("entrepreneurship")}
