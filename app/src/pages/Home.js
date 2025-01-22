@@ -24,7 +24,7 @@ function TextImage1() {
         <div className="text-section">
           <h1>{t("company")}</h1>
           <p>{t("home1")}</p>
-          <p>Join our community!</p>
+          <p>{t("joinus")}</p>
           <div className="social-buttons">
             <a
               href="https://instagram.com"
@@ -55,19 +55,19 @@ function Cards() {
 
   const cardData = [
     {
-      title: "Education",
+      title: <h2>{t("home3title")}</h2>,
+      image: require("../img/Logo.png"), // Replace with actual image path or URL
+      description: <p>{t("home3")}</p>,
+    },
+    {
+      title: <h2>{t("home4title")}</h2>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
       description: <p>{t("home4")}</p>,
     },
     {
-      title: "Representation",
+      title: <h2>{t("home5title")}</h2>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
       description: <p>{t("home5")}</p>,
-    },
-    {
-      title: "Education",
-      image: require("../img/Logo.png"), // Replace with actual image path or URL
-      description: <p>{t("home6")}</p>,
     },
   ];
 
@@ -101,7 +101,7 @@ const Quote2 = () => {
 
   return (
     <div>
-      <h2>{t("home3")}</h2>
+      <h2>{t("home7")}</h2>
     </div>
   );
 };
@@ -113,8 +113,8 @@ function TextImage2() {
     <div className="text-image-container">
       <div className="content-container">
         <div className="text-section">
-          <h2>{t("girlsinstem")}</h2>
-          <p>{t("home7")}</p>
+          <h2>{t("home8title")}</h2>
+          <p>{t("home8")}</p>
         </div>
       </div>
     </div>
