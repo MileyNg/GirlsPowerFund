@@ -17,18 +17,14 @@ function Home() {
 }
 
 function TextImage1() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
+  const { t } = useTranslation();
   return (
     <div className="text-image-container">
       <div className="content-container">
         <div className="text-section">
-          <h1>Girls Power Fund</h1>
+          <h1>{t("company")}</h1>
           <p>{t("home1")}</p>
-          <p>Join our community!</p>
+          <p>{t("joinus")}</p>
           <div className="social-buttons">
             <a
               href="https://instagram.com"
@@ -55,24 +51,23 @@ function TextImage1() {
 }
 
 function Cards() {
+  const { t } = useTranslation();
+
   const cardData = [
     {
-      title: "Education",
+      title: <h2>{t("home3title")}</h2>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
-      description:
-        "Our approach fosters creativity, critical thinking, and collaboration. Learners leave with confidence and the tools needed to succeed in dynamic environments.",
+      description: <p>{t("home3")}</p>,
     },
     {
-      title: "Representation",
+      title: <h2>{t("home4title")}</h2>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
-      description:
-        "We bring inspirational female speakers and leaders to share their journeys, encouraging ambition and inclusivity. Empowers individuals to envision and achieve their goals.",
+      description: <p>{t("home4")}</p>,
     },
     {
-      title: "Education",
+      title: <h2>{t("home5title")}</h2>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
-      description:
-        "Our approach fosters creativity, critical thinking, and collaboration. Learners leave with confidence and the tools needed to succeed in dynamic environments.",
+      description: <p>{t("home5")}</p>,
     },
   ];
 
@@ -92,48 +87,34 @@ function Cards() {
 }
 
 const Quote1 = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
   return (
     <div>
-      <h2>{t("homequote1")}</h2>
+      <h2>{t("home2")}</h2>
     </div>
   );
 };
 
 const Quote2 = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
   return (
     <div>
-      <h2>{t("homequote2")}</h2>
+      <h2>{t("home7")}</h2>
     </div>
   );
 };
 
 function TextImage2() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-  };
   return (
     <div className="text-image-container">
       <div className="content-container">
         <div className="text-section">
-          <h2>Girls in STEM!</h2>
-          <p>
-            This 2-8 week program is for young woman ages 15-18 that want to
-            learn UI/UX design and how to code websites and apps. Participants
-            undergo training in one of the tech disciplines and present a
-            project based on what they learned.
-          </p>
+          <h2>{t("home8title")}</h2>
+          <p>{t("home8")}</p>
         </div>
       </div>
     </div>
