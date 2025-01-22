@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { Navbar, Nav, NavDropdown, Container, Dropdown } from "react-bootstrap";
 import "./Navigation.css";
 import Logo from "../img/Logo.png";
@@ -11,6 +12,10 @@ function Navigation() {
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
+
+  const [showAboutUs, setShowAboutUs] = useState(false);
+  const [showPrograms, setShowPrograms] = useState(false);
+
   return (
     <Navbar collapseOnSelect expand="xl" className="Navigation">
       <Container>
@@ -28,26 +33,47 @@ function Navigation() {
             <Nav.Link href="/" className="mx-3">
               {t("home")}
             </Nav.Link>
-            <NavDropdown title={<Nav.Link href="/aboutus">{t("aboutus")}</Nav.Link>} id="#AboutUs" className="mx-3">
-              <NavDropdown.Item href="#OurTeam">
+            <NavDropdown
+              title={t("aboutus")}
+              id="AboutUsDropdown"
+              className="mx-3"
+              show={showAboutUs}
+              onMouseEnter={() => setShowAboutUs(true)}
+              onMouseLeave={() => setShowAboutUs(false)}
+              onToggle={() => {
+                window.location.href = "/aboutus";
+              }}
+            >
+              <NavDropdown.Item href="/aboutus/ourteam">
                 {t("ourteam")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#NewsAndMediaMentions">
+              <NavDropdown.Item href="/aboutus/newsandmedia">
                 {t("newsandmediamentions")}
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/getinvolved" className="mx-3">
               {t("getinvolved")}
             </Nav.Link>
-            <NavDropdown title={t("programs")} id="#Programs" className="mx-3">
-              <NavDropdown.Item href="#CodingBootcamp">
+            <NavDropdown
+              title={t("programs")}
+              id="ProgramsDropdown"
+              className="mx-3"
+              show={showPrograms}
+              onMouseEnter={() => setShowPrograms(true)}
+              onMouseLeave={() => setShowPrograms(false)}
+              onClick={() => setShowPrograms(!showPrograms)}
+              onToggle={() => {
+                window.location.href = "/programs";
+              }}
+            >
+              <NavDropdown.Item href="/programs/codingbootcamp">
                 {t("codingbootcamp")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Entrepreneurship">
+              <NavDropdown.Item href="/programs/codingbootcamp/entrepreneurship">
                 {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Impact" className="mx-3">
+            <Nav.Link href="/impact" className="mx-3">
               {t("impact")}
             </Nav.Link>
           </Nav>
@@ -74,11 +100,7 @@ function Navigation() {
               </Dropdown.Menu>
             </Dropdown>
             <div className="donate-button ms-2">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 DONATE
               </a>
             </div>
