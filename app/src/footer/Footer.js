@@ -52,17 +52,17 @@ function Footer() {
           </Col>
           <Col md={2}>
             <Nav className="flex-column">
-              <Nav.Link href="/program" className="p-0 mb-3 textalign-left">
-                {t("program")}
+              <Nav.Link href="/programs" className="p-0 mb-3 textalign-left">
+                {t("programs")}
               </Nav.Link>
               <Nav.Link
-                href="/program/codingbootcamp"
+                href="/programs/codingbootcamp"
                 className="p-0 mb-1 textalign-left footer-font"
               >
                 {t("codingbootcamp")}
               </Nav.Link>
               <Nav.Link
-                href="/program/entrepreneurship"
+                href="/programs/entrepreneurship"
                 className="p-0 mb-1 textalign-left footer-font"
               >
                 {t("entrepreneurship")}
@@ -98,10 +98,10 @@ function Footer() {
             </Nav>
             <Nav className="flex-column">
               <Nav.Link
-                href="/ourimpact"
+                href="/impact"
                 className="p-0 mb-3 mt-3 textalign-left"
               >
-                {t("ourimpact")}
+                {t("impact")}
               </Nav.Link>
             </Nav>
           </Col>

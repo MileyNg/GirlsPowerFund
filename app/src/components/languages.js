@@ -165,7 +165,7 @@ const resources = {
       getinvolved: "Engagiere dich",
       waystosupport: "Beteiligungsmöglichkeiten ",
       volunteer: "Volunteer",
-      program: "Programme",
+      programs: "Programme",
       codingbootcamp: "Coding Bootcamp",
       entrepreneurship: "Entrepreneurship",
       donate: "Spenden",

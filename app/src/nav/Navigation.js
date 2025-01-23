@@ -130,13 +130,17 @@ function Navigation() {
                 <>
                   <span
                     onClick={() =>
-                      handleDropdownClick(showProgam, setShowProgam, "/program")
+                      handleDropdownClick(
+                        showProgam,
+                        setShowProgam,
+                        "/programs"
+                      )
                     }
                     style={{ cursor: "pointer" }}
                   >
-                    {t("program")}
+                    {t("programs")}
                   </span>
-                  {renderDropdownToggle(showProgam, "program")}
+                  {renderDropdownToggle(showProgam, "programs")}
                 </>
               }
               id="ProgramDropdown"
@@ -151,8 +155,8 @@ function Navigation() {
                 {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/ourimpact" className="mx-3">
-              {t("ourimpact")}
+            <Nav.Link href="/impact" className="mx-3">
+              {t("impact")}
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
