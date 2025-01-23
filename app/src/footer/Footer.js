@@ -12,34 +12,34 @@ import Grouppic from "../img/grouppic.png";
 import Groupmeeting from "../img/groupmeeting.png";
 import Dinnerpic from "../img/dinnerpic.png";
 import "./Footer.css";
+import "../components/languages";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-purple py-5 footer">
       <Container>
         {/* Top Section */}
         <Row className="mb-5 text-center">
           <Col className="question-box">
-            <h3 className="font-source">Have a Question? We can Help!</h3>
-            <div className="footer-font font-white">We typically respond within 72 hours!</div>
-            <a
-              href="mailto:girlspowerfund@gmail.com"
-              className="font-white"
-            >
+            <h3 className="font-source">{t("footer1")}</h3>
+            <div className="footer-font font-white">{t("footer2")}</div>
+            <a href="mailto:girlspowerfund@gmail.com" className="font-white">
               girlspowerfund@gmail.com
             </a>
           </Col>
         </Row>
         {/* Middle Section */}
         <Row className="mb-4">
-          {/* About Us */}
           <Col md={4}>
-            <Row className="align-center mt-20">
+            <Row className="align-center mt-20 mb-3">
               <Col md={3}>
                 <Image
                   src={Logo}
-                  width="70"
-                  height="70"
+                  width="50"
+                  height="50"
                   alt="Logo"
                   className="mb-1"
                 />
@@ -48,101 +48,65 @@ function Footer() {
                 <h5>Girls Power Fund</h5>
               </Col>
             </Row>
-            <p className="textalign-left footer-font">
-              Girls Power Fund is a platform to empower girls and young women
-              through STEM and entrepreneurship education, mentorship, and
-              opportunities, fostering their skills, confidence, and leadership
-              to thrive in a technology-driven world.
-            </p>
+            <p className="textalign-left footer-font">{t("footer3")}</p>
           </Col>
-          {/* Program Links */}
           <Col md={2}>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-3 textalign-left">
-                Program
+              <Nav.Link href="/program" className="p-0 mb-3 textalign-left">
+                {t("program")}
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/program/codingbootcamp"
                 className="p-0 mb-1 textalign-left footer-font"
               >
-                Coding Bootcamp
+                {t("codingbootcamp")}
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/program/entrepreneurship"
                 className="p-0 mb-1 textalign-left footer-font"
               >
-                Tutoring Program
-              </Nav.Link>
-              <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
-              >
-                Entrepreneurship
+                {t("entrepreneurship")}
               </Nav.Link>
             </Nav>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-3 mt-3 textalign-left">
-                Get Involved
-              </Nav.Link>
               <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
+                href="/getinvolved"
+                className="p-0 mb-3 mt-3 textalign-left"
               >
-                Ways to support
-              </Nav.Link>
-              <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
-              >
-                Volunteer
+                {t("getinvolved")}
               </Nav.Link>
             </Nav>
           </Col>
           {/* About Links */}
           <Col md={3}>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-3 textalign-left">
-                About Us
+              <Nav.Link href="/aboutus" className="p-0 mb-3 textalign-left">
+                {t("aboutus")}
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/aboutus/ourteam"
                 className="p-0 mb-1 textalign-left footer-font"
               >
-                Our Team
+                {t("ourteam")}
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/aboutus/newsandmedia"
                 className="p-0 mb-1 textalign-left footer-font"
               >
-                Our Approach
-              </Nav.Link>
-              <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
-              >
-                News and Media Mentions
-              </Nav.Link>
-              <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
-              >
-                Girl Power Fund History
-              </Nav.Link>
-              <Nav.Link
-                href="#"
-                className="p-0 mb-1 textalign-left footer-font"
-              >
-                Financial Information
+                {t("newsandmediamentions")}
               </Nav.Link>
             </Nav>
             <Nav className="flex-column">
-              <Nav.Link href="#" className="p-0 mb-3 mt-3 textalign-left">
-                Impact
+              <Nav.Link
+                href="/ourimpact"
+                className="p-0 mb-3 mt-3 textalign-left"
+              >
+                {t("ourimpact")}
               </Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
-            <h5 className="mb-4">Follow on Instagram</h5>
+            <h5 className="mb-4">{t("followoninsta")}</h5>
             <Row>
               <Col xs={6}>
                 <Image src={ProfilePic} fluid className="mb-4 image-border" />
@@ -161,7 +125,7 @@ function Footer() {
         </Row>
         <Row className="border-top pt-3 align-center">
           <Col md={9} className="text-start copyright">
-            © 2024 Girls Power Fund | All Rights Reserved
+            © 2025 Girls Power Fund | All Rights Reserved
           </Col>
           <Col md={3} className="justify-items-end">
             <Nav>

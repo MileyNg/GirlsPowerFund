@@ -1,20 +1,79 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, NavDropdown, Container, Dropdown } from "react-bootstrap";
 import "./Navigation.css";
 import Logo from "../img/Logo.png";
 import "../components/languages";
 import { useTranslation } from "react-i18next";
-import { FaGlobe } from "react-icons/fa";
+import { FaGlobe, FaCaretDown } from "react-icons/fa";
 
 function Navigation() {
   const { t, i18n } = useTranslation();
-
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
 
   const [showAboutUs, setShowAboutUs] = useState(false);
-  const [showPrograms, setShowPrograms] = useState(false);
+  const [showProgam, setShowProgam] = useState(false);
+
+  const aboutUsRef = useRef(null);
+  const programRef = useRef(null);
+
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        aboutUsRef.current &&
+        !aboutUsRef.current.contains(event.target) &&
+        programRef.current &&
+        !programRef.current.contains(event.target)
+      ) {
+        setShowAboutUs(false);
+        setShowProgam(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const handleDropdownClick = (menuState, setMenuState, redirectPath) => {
+    if (menuState) {
+      window.location.href = redirectPath; // Navigate on the second click
+    } else {
+      setMenuState(true); // Open dropdown on the first click
+    }
+  };
+
+  const renderDropdownToggle = (isOpen, dropdown) => (
+    <span
+      style={{
+        display: "inline-block",
+        marginLeft: "5px",
+        transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
+        transition: "transform 0.3s ease",
+        cursor: "pointer",
+      }}
+      onClick={(e) => {
+        e.stopPropagation(); // Prevent triggering the dropdown title click
+        if (isOpen) {
+          if (dropdown === "aboutus") {
+            setShowAboutUs(false);
+          } else {
+            setShowProgam(false);
+          }
+        } else {
+          if (dropdown === "aboutus") {
+            setShowAboutUs(true);
+          } else {
+            setShowProgam(true);
+          }
+        }
+      }}
+    >
+      <FaCaretDown />
+    </span>
+  );
 
   return (
     <Navbar collapseOnSelect expand="xl" className="Navigation">
@@ -29,20 +88,32 @@ function Navigation() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto">
+          <Nav className="width-max">
             <Nav.Link href="/" className="mx-3">
               {t("home")}
             </Nav.Link>
             <NavDropdown
-              title={t("aboutus")}
+              title={
+                <>
+                  <span
+                    onClick={() =>
+                      handleDropdownClick(
+                        showAboutUs,
+                        setShowAboutUs,
+                        "/aboutus"
+                      )
+                    }
+                    style={{ cursor: "pointer" }}
+                  >
+                    {t("aboutus")}
+                  </span>
+                  {renderDropdownToggle(showAboutUs, "aboutus")}
+                </>
+              }
               id="AboutUsDropdown"
               className="mx-3"
+              ref={aboutUsRef}
               show={showAboutUs}
-              onMouseEnter={() => setShowAboutUs(true)}
-              onMouseLeave={() => setShowAboutUs(false)}
-              onToggle={() => {
-                window.location.href = "/aboutus";
-              }}
             >
               <NavDropdown.Item href="/aboutus/ourteam">
                 {t("ourteam")}
@@ -55,26 +126,33 @@ function Navigation() {
               {t("getinvolved")}
             </Nav.Link>
             <NavDropdown
-              title={t("programs")}
-              id="ProgramsDropdown"
+              title={
+                <>
+                  <span
+                    onClick={() =>
+                      handleDropdownClick(showProgam, setShowProgam, "/program")
+                    }
+                    style={{ cursor: "pointer" }}
+                  >
+                    {t("program")}
+                  </span>
+                  {renderDropdownToggle(showProgam, "program")}
+                </>
+              }
+              id="ProgramDropdown"
               className="mx-3"
-              show={showPrograms}
-              onMouseEnter={() => setShowPrograms(true)}
-              onMouseLeave={() => setShowPrograms(false)}
-              onClick={() => setShowPrograms(!showPrograms)}
-              onToggle={() => {
-                window.location.href = "/programs";
-              }}
+              ref={programRef}
+              show={showProgam}
             >
-              <NavDropdown.Item href="/programs/codingbootcamp">
+              <NavDropdown.Item href="/progam/codingbootcamp">
                 {t("codingbootcamp")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/programs/codingbootcamp/entrepreneurship">
+              <NavDropdown.Item href="/progam/codingbootcamp/entrepreneurship">
                 {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/impact" className="mx-3">
-              {t("impact")}
+            <Nav.Link href="/ourimpact" className="mx-3">
+              {t("ourimpact")}
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
@@ -100,7 +178,7 @@ function Navigation() {
               </Dropdown.Menu>
             </Dropdown>
             <div className="donate-button ms-2">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="/donate" target="_blank" rel="noopener noreferrer">
                 DONATE
               </a>
             </div>
