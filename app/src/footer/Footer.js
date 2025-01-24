@@ -34,7 +34,7 @@ function Footer() {
         {/* Middle Section */}
         <Row className="mb-4">
           <Col md={4}>
-            <Row className="align-center mt-20 mb-3">
+            <Row className="align-center textalign-left mt-20 mb-3">
               <Col md={3}>
                 <Image
                   src={Logo}
@@ -129,17 +129,17 @@ function Footer() {
           </Col>
           <Col md={3} className="justify-items-end">
             <Nav>
-              <Nav.Link href="#" className="social-button ms-3">
-                <FaTelegramPlane size={20} />
+              <Nav.Link href="#" className="social-button ms-2">
+                <FaTelegramPlane size={15} />
               </Nav.Link>
-              <Nav.Link href="#" className="social-button ms-3">
-                <FaInstagram size={20} />
+              <Nav.Link href="#" className="social-button ms-2">
+                <FaInstagram size={15} />
               </Nav.Link>
-              <Nav.Link href="#" className="social-button ms-3">
-                <FaLinkedinIn size={20} />
+              <Nav.Link href="#" className="social-button ms-2">
+                <FaLinkedinIn size={15} />
               </Nav.Link>
-              <Nav.Link href="#" className="social-button ms-3">
-                <FaYoutube size={20} />
+              <Nav.Link href="#" className="social-button ms-2">
+                <FaYoutube size={15} />
               </Nav.Link>
             </Nav>
           </Col>

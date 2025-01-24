@@ -1,3 +1,11 @@
+.navbar {
+  background-color: #f3eff7;
+}
+
+.navbar a {
+  font-size: 1.25rem;
+}
+
 .dropdown-toggle::after {
   display: none;
 }
@@ -15,8 +23,7 @@
   transition: background-color 0.3s ease;
 }
 
-.language-dropdown-toggle:hover,
-.dropdown-menu.show .language-dropdown-toggle {
+.language-dropdown-toggle:hover {
   background-color: #49347c;
   color: white;
 }
@@ -57,4 +64,11 @@
     justify-content: center;
   }
 
+  .language-button {
+    width: 100%;
+  }
+
+  .donate-button {
+    margin-top: 1rem;
+  }
 }

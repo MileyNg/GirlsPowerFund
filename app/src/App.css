@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #f3eff7;
+  background-color: white;
   font-family: 'Source Code Pro';
   font-size: calc(2px + 2vmin);
 }
@@ -21,10 +21,6 @@
 .App p {
   font-family: 'Inter';
   color: #14142B;
-}
-
-.App a {
-  font-size: 1.25rem;
 }
 
 .App-header {
@@ -48,15 +44,14 @@
 
 .social-buttons {
   display: flex;
-  gap: 15px;
-  /* Space between buttons */
+  gap: 2vh;
 }
 
 .social-buttons a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 25px;
+  padding: 8px 20px;
   color: #49347c;
   background-color: white;
   border-radius: 30px;
@@ -70,33 +65,35 @@
   /* Darker shade for hover effect */
 }
 
+.gradient-background {
+  width: 100vw;
+  background: linear-gradient(to bottom, #f3eff7, white);
+  background-repeat: no-repeat;
+}
 
 /* General container */
 .text-image-container {
   display: flex;
   justify-content: center;
-  padding: 50px;
 }
 
 .content-container {
   display: flex;
   flex-direction: row;
-  /* Default: Horizontal layout */
   justify-content: space-between;
   align-items: center;
+  padding-top: 2rem;
 }
 
 .text-section {
   flex: 2;
   /* Text section takes up more space */
   text-align: left;
-  padding-right: 100px;
+  padding-right: 1%;
 }
 
 .image-section {
   flex: 1;
-  /* Image section takes up less space */
-  min-width: 300px;
   text-align: center;
 }
 
@@ -116,8 +113,8 @@
   }
 }
 
-@media (max-width: 1000px) {
-  
+@media (max-width: 991px) {
+
   .content-container {
     flex-direction: column;
     /* Stacks items vertically */

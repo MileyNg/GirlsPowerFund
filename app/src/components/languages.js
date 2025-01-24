@@ -462,12 +462,20 @@ const resources = {
   },
 };
 
-i18n.use(initReactI18next).init({
-  resources,
-  lng: "en", // default language
-  interpolation: {
-    escapeValue: false,
-  },
+const savedLanguage = localStorage.getItem("language") || "en";
+
+i18n
+  .use(initReactI18next)
+  .init({
+    resources,
+    lng: savedLanguage, // Save selected language
+    interpolation: {
+      escapeValue: false,
+    },
+  });
+
+i18n.on("languageChanged", (lang) => {
+  localStorage.setItem("language", lang); // Save selected language
 });
 
 export default i18n;

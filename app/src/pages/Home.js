@@ -19,7 +19,7 @@ function Home() {
 function TextImage1() {
   const { t } = useTranslation();
   return (
-    <div className="text-image-container">
+    <div className="text-image-container container">
       <div className="content-container">
         <div className="text-section">
           <h1>{t("company")}</h1>
@@ -72,13 +72,13 @@ function Cards() {
   ];
 
   return (
-    <div className="cards-container">
+    <div className="cards-container container">
       <div className="cards">
         {cardData.map((card, index) => (
           <div className="card" key={index}>
             <img src={card.image} alt={card.title} className="card-image" />
-            <h2 className="card-title">{card.title}</h2>
-            <p className="card-description">{card.description}</p>
+            {card.title}
+            <div className="card-description">{card.description}</div>
           </div>
         ))}
       </div>
@@ -91,7 +91,7 @@ const Quote1 = () => {
 
   return (
     <div>
-      <h2>{t("home2")}</h2>
+      {/* <h2>{t("home2")}</h2> */}
     </div>
   );
 };
@@ -101,7 +101,7 @@ const Quote2 = () => {
 
   return (
     <div>
-      <h2>{t("home7")}</h2>
+      {/* <h2>{t("home7")}</h2> */}
     </div>
   );
 };
@@ -110,13 +110,13 @@ function TextImage2() {
   const { t } = useTranslation();
 
   return (
-    <div className="text-image-container">
-      <div className="content-container">
+    <div className="text-image-container container">
+      {/* <div className="content-container">
         <div className="text-section">
           <h2>{t("home8title")}</h2>
           <p>{t("home8")}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
