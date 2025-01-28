@@ -33,7 +33,7 @@ const resources = {
         "Girls Power Fund is a platform to empower girls and young women through STEM and entrepreneurship education, mentorship, and opportunities, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
       home1:
         "A platform to empower girls and young women through STEM and entrepreneurship education, mentorship, and opportunities, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
-      joinus: "Join our community",
+      joinus: "Join our community!",
       home2:
         "Empowering the Next Generation of Innovators Through HANDS-ON LEARNING...",
       home3title: "Education",
@@ -184,7 +184,7 @@ const resources = {
         "Der Mädchen Power Fonds ist eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring und Möglichkeiten zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
       home1:
         "Eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring und Möglichkeiten zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
-      joinus: "Treten Sie unserer Gemeinschaft bei",
+      joinus: "Treten Sie unserer Gemeinschaft bei!",
       home2:
         "Die nächste Generation von Innovatoren durch PRAKTISCHES LERNEN stärken...",
       home4title: "Bildung",
@@ -339,7 +339,7 @@ const resources = {
         "Фонд Girls Power — это платформа, которая помогает девочкам и молодым женщинам через обучение STEM и предпринимательству, наставничество и предоставление возможностей, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
       home1:
         "Платформа для поддержки девочек и молодых женщин через STEM и предпринимательство, наставничество и возможности, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
-      joinus: "Присоединяйтесь к нашему сообществу",
+      joinus: "Присоединяйтесь к нашему сообществу!",
       home2:
         "Вдохновляем следующее поколение новаторов через ПРАКТИЧЕСКОЕ ОБУЧЕНИЕ...",
       home4title: "Образование",

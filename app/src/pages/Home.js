@@ -1,16 +1,17 @@
 import React from "react";
-import Logo from "../img/home_1.png";
-import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { Container, Row, Col, Nav, Image } from "react-bootstrap";
 import "../components/languages";
 import { useTranslation } from "react-i18next";
+import Grouppic from "../img/home_1.png";
+import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 function Home() {
   return (
     <div>
       <TextImage1 />
-      <Quote1 />
+      <Quote translationKey="home2" />
       <Cards />
-      <Quote2 />
+      <Quote translationKey="home7" />
       <TextImage2 />
     </div>
   );
@@ -19,89 +20,80 @@ function Home() {
 function TextImage1() {
   const { t } = useTranslation();
   return (
-    <div className="text-image-container container">
-      <div className="content-container">
-        <div className="text-section">
-          <h1>{t("company")}</h1>
-          <p>{t("home1")}</p>
-          <p>{t("joinus")}</p>
-          <div className="social-buttons">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram className="me-2" /> Instagram
-            </a>
-            <a
-              href="https://telegram.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTelegramPlane className="me-2" /> Telegram
-            </a>
-          </div>
-        </div>
-        <div className="image-section">
-          <img src={Logo} alt="Girls Power Fund" />
-        </div>
-      </div>
+    <div className="background-gradient">
+      <Container className="text-image-container">
+        <Row className="content-container">
+          <Col md={7} className="text-section">
+            <h1>{t("company")}</h1>
+            <p>{t("home1")}</p>
+            <p>{t("joinus")}</p>
+            <div className="social-buttons">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram /> Instagram
+              </a>
+              <a
+                href="https://telegram.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegramPlane /> Telegram
+              </a>
+            </div>
+          </Col>
+          <Col md={5} className="image-section">
+            <img src={Grouppic} alt="Girls Power Fund Group" />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
 
 function Cards() {
   const { t } = useTranslation();
-
   const cardData = [
     {
-      title: <h2>{t("home3title")}</h2>,
+      title: <h5>{t("home3title")}</h5>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
       description: <p>{t("home3")}</p>,
     },
     {
-      title: <h2>{t("home4title")}</h2>,
+      title: <h5>{t("home4title")}</h5>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
       description: <p>{t("home4")}</p>,
     },
     {
-      title: <h2>{t("home5title")}</h2>,
+      title: <h5>{t("home5title")}</h5>,
       image: require("../img/Logo.png"), // Replace with actual image path or URL
       description: <p>{t("home5")}</p>,
     },
   ];
 
   return (
-    <div className="cards-container container">
-      <div className="cards">
+    <Container className="cards-container">
+      <Row className="cards">
         {cardData.map((card, index) => (
-          <div className="card" key={index}>
-            <img src={card.image} alt={card.title} className="card-image" />
+          <Col className="card" md={3} key={index}>
+            <img src={card.image} alt="card-images" className="card-image" />
             {card.title}
             <div className="card-description">{card.description}</div>
-          </div>
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 }
 
-const Quote1 = () => {
+const Quote = ({ translationKey }) => {
   const { t } = useTranslation();
 
   return (
-    <div>
-      {/* <h2>{t("home2")}</h2> */}
-    </div>
-  );
-};
-
-const Quote2 = () => {
-  const { t } = useTranslation();
-
-  return (
-    <div>
-      {/* <h2>{t("home7")}</h2> */}
+    <div className="container quote">
+      <h2>{t(translationKey)}</h2>
     </div>
   );
 };

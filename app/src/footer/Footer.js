@@ -19,7 +19,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-purple py-5 footer">
+    <footer className="bg-purple py-2 footer">
       <Container>
         {/* Top Section */}
         <Row className="mb-5 text-center">
@@ -109,10 +109,10 @@ function Footer() {
             <h5 className="mb-4">{t("followoninsta")}</h5>
             <Row>
               <Col xs={6}>
-                <Image src={ProfilePic} fluid className="mb-4 image-border" />
+                <Image src={ProfilePic} fluid className="mb-3 image-border" />
               </Col>
               <Col xs={6}>
-                <Image src={Grouppic} fluid className="mb-4 image-border" />
+                <Image src={Grouppic} fluid className="mb-3 image-border" />
               </Col>
               <Col xs={6}>
                 <Image src={Groupmeeting} fluid className="mb-2 image-border" />
@@ -125,7 +125,7 @@ function Footer() {
         </Row>
         <Row className="border-top pt-3 align-center">
           <Col md={9} className="text-start copyright">
-            © 2025 Girls Power Fund | All Rights Reserved
+            Copyright © 2025 Girls Power Fund | All Rights Reserved
           </Col>
           <Col md={3} className="justify-items-end">
             <Nav>
