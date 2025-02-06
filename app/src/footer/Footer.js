@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col, Nav, Image } from "react-bootstrap";
 import {
   FaInstagram,
-  FaTelegramPlane,
+  //FaTelegramPlane,
   FaLinkedinIn,
-  FaYoutube,
+  //FaYoutube,
 } from "react-icons/fa";
 import Logo from "../img/Logo.png";
 import ProfilePic from "../img/profilepic.png";
@@ -97,50 +97,83 @@ function Footer() {
               </Nav.Link>
             </Nav>
             <Nav className="flex-column">
-              <Nav.Link
-                href="/impact"
-                className="p-0 mb-3 mt-3 textalign-left"
-              >
+              <Nav.Link href="/impact" className="p-0 mb-3 mt-3 textalign-left">
                 {t("impact")}
               </Nav.Link>
             </Nav>
           </Col>
           <Col md={3}>
-            <h5 className="mb-4">{t("followoninsta")}</h5>
+            <h5 className="mb-3">{t("followoninsta")}</h5>
             <Row>
               <Col xs={6}>
-                <Image src={ProfilePic} fluid className="mb-3 image-border" />
+                <a
+                  href="https://www.instagram.com/girlspower.fund/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={ProfilePic} fluid className="mb-3 image-border" />
+                </a>
               </Col>
               <Col xs={6}>
-                <Image src={Grouppic} fluid className="mb-3 image-border" />
+                <a
+                  href="https://www.instagram.com/girlspower.fund/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={Grouppic} fluid className="mb-3 image-border" />
+                </a>
               </Col>
               <Col xs={6}>
-                <Image src={Groupmeeting} fluid className="mb-2 image-border" />
+                <a
+                  href="https://www.instagram.com/girlspower.fund/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src={Groupmeeting}
+                    fluid
+                    className="mb-2 image-border"
+                  />
+                </a>
               </Col>
               <Col xs={6}>
-                <Image src={Dinnerpic} fluid className="mb-2 image-border" />
+                <a
+                  href="https://www.instagram.com/girlspower.fund/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={Dinnerpic} fluid className="mb-2 image-border" />
+                </a>
               </Col>
             </Row>
           </Col>
         </Row>
         <Row className="border-top pt-3 align-center">
           <Col md={9} className="text-start copyright">
-            Copyright © 2025 Girls Power Fund | All Rights Reserved
+            © 2025 Girls Power Fund | All Rights Reserved
           </Col>
           <Col md={3} className="justify-items-end">
             <Nav>
+              {/* 
               <Nav.Link href="#" className="social-button ms-2">
                 <FaTelegramPlane size={15} />
-              </Nav.Link>
-              <Nav.Link href="#" className="social-button ms-2">
+              </Nav.Link> */}
+              <Nav.Link
+                href="https://www.instagram.com/girlspower.fund/"
+                className="social-button ms-2"
+              >
                 <FaInstagram size={15} />
               </Nav.Link>
-              <Nav.Link href="#" className="social-button ms-2">
+              <Nav.Link
+                href="https://www.linkedin.com/company/girlspowerfund/?viewAsMember=true"
+                className="social-button ms-2"
+              >
                 <FaLinkedinIn size={15} />
               </Nav.Link>
+              {/* 
               <Nav.Link href="#" className="social-button ms-2">
                 <FaYoutube size={15} />
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Col>
         </Row>

@@ -197,12 +197,12 @@ const resources = {
       home6:
         "Wir bieten praktische Erfahrungen durch projektbasiertes Lernen, Mentoring und Workshops, die kulturell auf Mädchen und Frauen in Zentralasien zugeschnitten sind.",
       home7: "Erfahren Sie hier mehr über unseren Ansatz",
+      home8title: "Mädchen in MINT!",
       home8:
         "Entdecken Sie unsere Programme, die WACHSTUM inspirieren und VERÄNDERUNGEN ermöglichen!",
-      home9title: "Mädchen in MINT!",
+      home9title: "BESCHLEUNIGEN!",
       home9:
         "Dieses 2- bis 8-wöchige Programm richtet sich an junge Frauen im Alter von 15-18 Jahren, die UI/UX-Design und die Erstellung von Websites und Apps erlernen möchten. Die Teilnehmerinnen erhalten eine Ausbildung in einer der technischen Disziplinen und präsentieren ein Projekt basierend auf ihren erworbenen Fähigkeiten.",
-      home10title: "BESCHLEUNIGEN",
       home10:
         "Accelerate ist ein Online-Training für 300 Unternehmerinnen aus Kasachstan, Kirgisistan und Usbekistan. Die Frauen erhalten Mentoring und Zugang zu Investitionen, um ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
       readmore: "Mehr Erfahren",
@@ -352,12 +352,12 @@ const resources = {
       home6:
         "Мы предоставляем практический опыт через проектное обучение, наставничество и мастер-классы, культурно адаптированные для девочек и женщин в Центральной Азии.",
       home7: "Узнайте больше о нашем подходе здесь",
+      home8title: "Девочки в STEM!",
       home8:
         "Исследуйте наши программы, разработанные для ВДОХНОВЕНИЯ роста и ПОДДЕРЖКИ изменений!",
-      home9title: "Девочки в STEM!",
+      home9title: "ACCELERATE",
       home9:
         "Эта 2–8-недельная программа предназначена для молодых женщин в возрасте 15–18 лет, которые хотят изучать UI/UX-дизайн и как кодировать сайты и приложения. Участники проходят обучение в одной из технических дисциплин и представляют проект на основе изученного.",
-      home10title: "ACCELERATE",
       home10:
         "ACCELERATE — это онлайн-обучение для 300 женщин-предпринимателей из Казахстана, Кыргызстана и Узбекистана. Женщины получают наставничество и доступ к инвестициям, чтобы развивать свой бизнес и находить новых партнеров.",
       readmore: "Читать далее",
