@@ -151,7 +151,7 @@ function Navigation() {
               <NavDropdown.Item href="/progams/codingbootcamp">
                 {t("codingbootcamp")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/progams/codingbootcamp/entrepreneurship">
+              <NavDropdown.Item href="/progams/entrepreneurship">
                 {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>

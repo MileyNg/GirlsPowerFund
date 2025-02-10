@@ -117,9 +117,7 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 2rem;
 }
 
 .content-container {
@@ -129,18 +127,33 @@
 .text-section {
   /* Text section takes up more space */
   text-align: left;
-  padding-right: 1%;
+  padding: 20px;
 }
 
 .image-section {
   flex: 1;
   text-align: center;
+  margin: 20px;
 }
 
 .image-section img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.image-border-gradient {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 13px;
+  background: linear-gradient(to bottom,
+      #dac4f9 0%,
+      #d2b4f5 25%,
+      #bd94ff 50%,
+      #ACAEFA 75%,
+      #dac4f9 100%);
 }
 
 /* Cards */
@@ -148,7 +161,6 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
   gap: 2rem;
   flex-wrap: wrap;
 }

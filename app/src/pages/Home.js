@@ -4,21 +4,36 @@ import "../components/languages";
 import Cards from "../components/Cards";
 import Quote from "../components/Quote";
 import TextImage from "../components/TextImage";
+import ImageText from "../components/ImageText";
 import { useTranslation } from "react-i18next";
+import Homepic from "../img/home_1.png";
 import Grouppic from "../img/pic1.jpg";
+import Workpic from "../img/pic2.jpg";
 import { FaInstagram } from "react-icons/fa";
 
 function Home() {
   const { t } = useTranslation();
 
-  const GirlsInSTEM = {
+  const girlsInSTEM = {
     background: "background-purple",
     title: t("home8title"),
     text: t("home8"),
     href: "/programs/codingbootcamp",
     buttonText: t("readmore"),
+    image: Workpic,
+    alt: "Working picture",
+    borderImage: "image-border-gradient"
+  };
+
+  const accelerate = {
+    background: "background-purple",
+    title: t("home9title"),
+    text: t("home9"),
+    href: "/programs/entrepreneurship",
+    buttonText: t("readmore"),
     image: Grouppic,
-    alt: "Girls Power Fund Group",
+    alt: "Entrepreneurship",
+    borderImage: "image-border-gradient"
   };
 
   return (
@@ -27,7 +42,8 @@ function Home() {
       <Quote translationKey="home2" />
       <Cards />
       <Quote translationKey="home7" />
-      <TextImage data={GirlsInSTEM} />
+      <TextImage data={girlsInSTEM} />
+      <ImageText data={accelerate} />
     </div>
   );
 }
@@ -53,7 +69,7 @@ function TextImage1() {
             </div>
           </Col>
           <Col md={5} className="image-section">
-            <img src={Grouppic} alt="Girls Power Fund Group" />
+            <img src={Homepic} alt="Girls Power Fund Group" />
           </Col>
         </Row>
       </Container>

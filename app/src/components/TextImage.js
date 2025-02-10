@@ -4,7 +4,7 @@ function TextImage({ data }) {
   return (
     <Container className={`text-image-container ${data.background}`}>
       <Row className="content-container">
-        <Col md={7} className="text-section">
+        <Col md={6} className="text-section">
           <h1>{data.title}</h1>
           <p>{data.text}</p>
           <div className="redirect-buttons">
@@ -13,7 +13,7 @@ function TextImage({ data }) {
             </a>
           </div>
         </Col>
-        <Col md={5} className="image-section">
+        <Col md={6} className={`image-section ${data.borderImage}`}>
           <img src={data.image} alt={data.alt} />
         </Col>
       </Row>
