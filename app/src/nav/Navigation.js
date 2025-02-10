@@ -148,10 +148,10 @@ function Navigation() {
               ref={programRef}
               show={showProgam}
             >
-              <NavDropdown.Item href="/progam/codingbootcamp">
+              <NavDropdown.Item href="/progams/codingbootcamp">
                 {t("codingbootcamp")}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/progam/codingbootcamp/entrepreneurship">
+              <NavDropdown.Item href="/progams/codingbootcamp/entrepreneurship">
                 {t("entrepreneurship")}
               </NavDropdown.Item>
             </NavDropdown>

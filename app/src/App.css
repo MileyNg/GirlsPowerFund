@@ -86,13 +86,13 @@
     white;
 }
 
-.social-buttons {
+.social-buttons, .redirect-buttons {
   display: flex;
   gap: 2%;
   margin-bottom: 2%;
 }
 
-.social-buttons a {
+.social-buttons a, .redirect-buttons a {
   padding: 8px 20px;
   color: #49347c;
   background-color: white;
@@ -102,7 +102,7 @@
   transition: background-color 0.3s ease;
 }
 
-.social-buttons a:hover {
+.social-buttons a:hover, .redirect-buttons a:hover {
   background-color: #49347c;
   color: white;
 }
