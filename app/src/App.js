@@ -9,6 +9,8 @@ import Donate from "./pages/Donate";
 import Programs from "./pages/programs/Programs";
 import Entrepreneurship from "./pages/programs/Entrepreneurship";
 import CodingBootcamp from "./pages/programs/CodingBootcamp";
+import Impact from "./pages/Impact";
+import GetInvolved from "./pages/GetInvolved";
 
 function App() {
   return (
@@ -19,10 +21,15 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/aboutus/ourteam" element={<OurTeam />} />
+          <Route path="/getinvolved" element={<GetInvolved />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/programs" element={<Programs />} />
-          <Route path="/codingbootcamp" element={<CodingBootcamp />} />
-          <Route path="/entrepreneurship" element={<Entrepreneurship />} />
+          <Route path="/programs/codingbootcamp" element={<CodingBootcamp />} />
+          <Route
+            path="/programs/entrepreneurship"
+            element={<Entrepreneurship />}
+          />
+          <Route path="/impact" element={<Impact />} />
         </Routes>
         <Footer />
       </Router>
