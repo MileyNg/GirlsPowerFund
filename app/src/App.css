@@ -110,13 +110,17 @@
   color: white;
 }
 
+img {
+  max-width: 100%;
+}
+
 .text-align-left {
   text-align: left;
 }
 
 .quote {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .quote-link {
@@ -134,7 +138,7 @@
 .quote-link a {
   color: #14142B;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 500;
 }
 
@@ -163,7 +167,6 @@
 }
 
 .image-section img {
-  max-width: 100%;
   height: auto;
   border-radius: 15px;
   padding: 5px;
@@ -187,6 +190,7 @@
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  padding-bottom: 1rem;
   gap: 2rem;
   flex-wrap: wrap;
 }

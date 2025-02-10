@@ -1,12 +1,9 @@
-import { useTranslation } from "react-i18next";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
-const Quote = ({ translationKey }) => {
-  const { t } = useTranslation();
-
+const Quote = ({ text, background }) => {
   return (
-    <Container className="quote">
-      <h2>{t(translationKey)}</h2>
+    <Container className={`quote ${background}`}>
+      <h2>{text}</h2>
     </Container>
   );
 };

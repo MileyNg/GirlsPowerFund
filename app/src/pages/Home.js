@@ -10,6 +10,9 @@ import { useTranslation } from "react-i18next";
 import Homepic from "../img/home_1.png";
 import Grouppic from "../img/pic1.jpg";
 import Workpic from "../img/pic2.jpg";
+import TechGirlsImage from "../img/techgirls.png";
+import RiseImage from "../img/rise.png";
+import TechnovationGirlsImage from "../img/technovationgirls.png";
 import { FaInstagram } from "react-icons/fa";
 
 function Home() {
@@ -23,7 +26,7 @@ function Home() {
     buttonText: t("readmore"),
     image: Workpic,
     alt: "Working picture",
-    borderImage: "image-border-gradient"
+    borderImage: "image-border-gradient",
   };
 
   const accelerate = {
@@ -34,24 +37,25 @@ function Home() {
     buttonText: t("readmore"),
     image: Grouppic,
     alt: "Entrepreneurship",
-    borderImage: "image-border-gradient"
+    borderImage: "image-border-gradient",
   };
 
   const alumni = {
     text: t("home11"),
-    href: "/programs/entrepreneurship",
-    linkText: t("home12")
+    href: "/impact",
+    linkText: t("home12"),
   };
 
   return (
     <div>
       <TextImage1 />
-      <Quote translationKey="home2" />
+      <Quote text={t("home2")} />
       <Cards />
-      <Quote translationKey="home7" />
+      <Quote text={t("home7")} background="background-purple" />
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
       <QuoteLink data={alumni} />
+      <TechImages />
     </div>
   );
 }
@@ -82,6 +86,16 @@ function TextImage1() {
         </Row>
       </Container>
     </div>
+  );
+}
+
+function TechImages() {
+  return (
+    <Container>
+      <img src={TechGirlsImage} alt="Tech Girls" />
+      <img src={RiseImage} alt="Rise" />
+      <img src={TechnovationGirlsImage} alt="Technovation Girls" />
+    </Container>
   );
 }
 
