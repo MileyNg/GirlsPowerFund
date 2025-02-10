@@ -5,14 +5,6 @@ import { useTranslation } from "react-i18next";
 import QRCode from "../img/QRCode_donate.jpg";
 
 function Donate() {
-  return (
-    <div>
-      <TextImage1 />
-    </div>
-  );
-}
-
-function TextImage1() {
   const { t } = useTranslation();
   return (
     <div className="background-gradient">
