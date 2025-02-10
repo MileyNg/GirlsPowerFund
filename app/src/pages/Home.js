@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../components/languages";
 import Cards from "../components/Cards";
 import Quote from "../components/Quote";
+import QuoteLink from "../components/QuoteLink";
 import TextImage from "../components/TextImage";
 import ImageText from "../components/ImageText";
 import { useTranslation } from "react-i18next";
@@ -36,6 +37,12 @@ function Home() {
     borderImage: "image-border-gradient"
   };
 
+  const alumni = {
+    text: t("home11"),
+    href: "/programs/entrepreneurship",
+    linkText: t("home12")
+  };
+
   return (
     <div>
       <TextImage1 />
@@ -44,6 +51,7 @@ function Home() {
       <Quote translationKey="home7" />
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
+      <QuoteLink data={alumni} />
     </div>
   );
 }
