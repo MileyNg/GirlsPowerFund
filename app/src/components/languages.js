@@ -149,6 +149,9 @@ const resources = {
       ourimpact4:
         "100+ female - led projects created in respective communities by alumni to solve social problems after our programs",
       ourimpact5: "2023 annual report",
+      donate1: "Your Support, Her Success DONATE TODAY!",
+      donate2:
+        "100% of your donation funds programming  for young girls in Kazakhstan",
       faq: "Frequently asked questions",
       faq1: "What does my donation to Girl Power Fund do?",
     },
@@ -304,6 +307,9 @@ const resources = {
       ourimpact4:
         "Über 100 weiblich geführte Projekte, die von Alumni in ihren jeweiligen Gemeinschaften zur Lösung sozialer Probleme nach unseren Programmen gestartet wurden",
       ourimpact5: "Jahresbericht 2023",
+      donate1: "Ihre Unterstützung, ihr Erfolg – SPENDEN SIE HEUTE!",
+      donate2:
+        "100 % Ihrer Spende fließen in Programme für junge Mädchen in Kasachstan.",
       faq: "Häufig gestellte Fragen",
       faq1: "Was bewirkt meine Spende an den Girls Power Fund?",
     },
@@ -456,6 +462,9 @@ const resources = {
       ourimpact4:
         "Более 100 женских проектов создано выпускницами в их сообществах для решения социальных проблем после наших программ.",
       ourimpact5: "Годовой отчет за 2023 год.",
+      donate1: "Ваша поддержка – её успех. ПОЖЕРТВУЙТЕ СЕГОДНЯ!",
+      donate2:
+        "100 % вашего пожертвования идут на программы для девочек в Казахстане.",
       faq: "Часто задаваемые вопросы",
       faq1: "Как используется мое пожертвование?",
     },
