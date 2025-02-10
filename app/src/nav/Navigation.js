@@ -182,7 +182,7 @@ function Navigation() {
               </Dropdown.Menu>
             </Dropdown>
             <div className="donate-button ms-2">
-              <a href="/donate" target="_blank" rel="noopener noreferrer">
+              <a href="/donate" rel="noopener noreferrer">
                 {t("donate").toUpperCase()}
               </a>
             </div>
