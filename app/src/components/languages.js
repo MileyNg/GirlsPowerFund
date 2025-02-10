@@ -187,33 +187,33 @@ const resources = {
       joinus: "Treten Sie unserer Gemeinschaft bei!",
       home2:
         "Die nächste Generation von Innovatoren durch PRAKTISCHES LERNEN stärken...",
-      home4title: "Bildung",
-      home4:
+      home3title: "Bildung",
+      home3:
         "Unser Ansatz fördert Kreativität, kritisches Denken und Zusammenarbeit. Lernende verlassen unser Programm mit Selbstvertrauen und den Werkzeugen, die sie benötigen, um in dynamischen Umfeldern erfolgreich zu sein.",
-      home5title: "Repräsentation",
-      home5:
+      home4title: "Repräsentation",
+      home4:
         "Wir bringen inspirierende weibliche Rednerinnen und Führungspersönlichkeiten, die ihre Geschichten teilen und Ehrgeiz sowie Inklusion fördern. Dies befähigt Einzelpersonen, ihre Ziele zu erkennen und zu erreichen.",
-      home6title: "Praktische Erfahrung",
-      home6:
+      home5title: "Praktische Erfahrung",
+      home5:
         "Wir bieten praktische Erfahrungen durch projektbasiertes Lernen, Mentoring und Workshops, die kulturell auf Mädchen und Frauen in Zentralasien zugeschnitten sind.",
-      home7: "Erfahren Sie hier mehr über unseren Ansatz",
+      home6: "Erfahren Sie hier mehr über unseren Ansatz",
+      home7:
+        "Entdecken Sie unsere Programme, die dazu entwickelt wurden, WACHSTUM zu INSPIRIEREN und VERÄNDERUNG zu BEFÄHIGEN!",
       home8title: "Mädchen in MINT!",
       home8:
-        "Entdecken Sie unsere Programme, die WACHSTUM inspirieren und VERÄNDERUNGEN ermöglichen!",
-      home9title: "BESCHLEUNIGEN!",
-      home9:
         "Dieses 2- bis 8-wöchige Programm richtet sich an junge Frauen im Alter von 15-18 Jahren, die UI/UX-Design und die Erstellung von Websites und Apps erlernen möchten. Die Teilnehmerinnen erhalten eine Ausbildung in einer der technischen Disziplinen und präsentieren ein Projekt basierend auf ihren erworbenen Fähigkeiten.",
-      home10:
+      home9title: "ACCELERATE",
+      home9:
         "Accelerate ist ein Online-Training für 300 Unternehmerinnen aus Kasachstan, Kirgisistan und Usbekistan. Die Frauen erhalten Mentoring und Zugang zu Investitionen, um ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
       readmore: "Mehr Erfahren",
-      home11:
+      home10:
         "„Nach meiner Teilnahme am Programm „Erstelle deine erste App“ des Mädchen Power Fonds habe ich erkannt, dass ich Technik liebe. Ich begann, an mehreren Wettbewerben teilzunehmen, und wurde für ein prestigeträchtiges, vollständig finanziertes Programm, Tech Girls, des US-Außenministeriums ausgewählt. Jetzt studiere ich Informatik an der NYU AD mit einem Vollstipendium.“",
-      home11author: "Kuralay, Teilnehmerin von Mädchen in MINT",
-      home12:
+      home10author: "Kuralay, Teilnehmerin von Mädchen in MINT",
+      home11:
         "Unsere Alumni erhalten globale Anerkennung, gewinnen Wettbewerbe wie den Technovation Challenge, Tech Girls und Robocon und sammeln Gelder, um ihre Gemeinschaften zu verbessern.",
-      home13: "Erfahren Sie hier mehr über unsere Wirkung",
-      home14: "Erfahren Sie mehr über uns und was wir Ihnen bieten können",
-      home15:
+      home12: "Erfahren Sie hier mehr über unsere Wirkung",
+      home13: "Erfahren Sie mehr über uns und was wir Ihnen bieten können",
+      home14:
         "Vielen Dank, dass Sie uns helfen, die Zukunft von Hunderten junger Frauen in Kasachstan zu unterstützen",
       formname: "Name",
       formemail: "E-Mail",
@@ -342,33 +342,33 @@ const resources = {
       joinus: "Присоединяйтесь к нашему сообществу!",
       home2:
         "Вдохновляем следующее поколение новаторов через ПРАКТИЧЕСКОЕ ОБУЧЕНИЕ...",
-      home4title: "Образование",
-      home4:
+      home3title: "Образование",
+      home3:
         "Наш подход развивает креативность, критическое мышление и сотрудничество. Учащиеся уходят с уверенностью и инструментами, необходимыми для успеха в динамичной среде.",
-      home5title: "Позитивные примеры",
-      home5:
+      home4title: "Позитивные примеры",
+      home4:
         "Мы приглашаем вдохновляющих женщин-спикеров и лидеров, чтобы поделиться своими историями, поощряя амбиции и инклюзивность. Это позволяет каждому видеть и достигать своих целей.",
-      home6title: "Практический опыт",
-      home6:
+      home5title: "Практический опыт",
+      home5:
         "Мы предоставляем практический опыт через проектное обучение, наставничество и мастер-классы, культурно адаптированные для девочек и женщин в Центральной Азии.",
-      home7: "Узнайте больше о нашем подходе здесь",
+      home6: "Узнайте больше о нашем подходе здесь",
+      home7:
+        "Исследуйте наши программы, разработанные для ВДОХНОВЕНИЯ роста и ПОДДЕРЖКИ изменений!",
       home8title: "Девочки в STEM!",
       home8:
-        "Исследуйте наши программы, разработанные для ВДОХНОВЕНИЯ роста и ПОДДЕРЖКИ изменений!",
+        "Эта 2–8-недельная программа предназначена для молодых женщин в возрасте 15–18 лет, которые хотят изучать UI/UX-дизайн и как кодировать сайты и приложения. Участники проходят обучение в одной из технических дисциплин и представляют проект на основе изученного.",
       home9title: "ACCELERATE",
       home9:
-        "Эта 2–8-недельная программа предназначена для молодых женщин в возрасте 15–18 лет, которые хотят изучать UI/UX-дизайн и как кодировать сайты и приложения. Участники проходят обучение в одной из технических дисциплин и представляют проект на основе изученного.",
-      home10:
         "ACCELERATE — это онлайн-обучение для 300 женщин-предпринимателей из Казахстана, Кыргызстана и Узбекистана. Женщины получают наставничество и доступ к инвестициям, чтобы развивать свой бизнес и находить новых партнеров.",
       readmore: "Читать далее",
-      home11:
+      home10:
         "‘После участия в программе фонда Girls Power «Создай свое первое приложение» я поняла, что люблю технологии. Я начала участвовать в нескольких конкурсах и была выбрана для престижной полностью финансируемой программы Tech Girls Государственным департаментом США. Теперь я изучаю информатику в NYU AD с полной стипендией.’",
-      home11author: "Куралай, участница Girls in STEM",
-      home12:
+      home10author: "Куралай, участница Girls in STEM",
+      home11:
         "Наши выпускницы добиваются мирового признания, выигрывают соревнования, такие как Technovation Challenge, Tech Girls и Robocon, а также собирают средства для улучшения своих сообществ.",
-      home13: "Узнайте больше о нашем влиянии здесь",
-      home14: "Узнайте больше о том, кто мы и что мы можем вам предложить",
-      home15:
+      home12: "Узнайте больше о нашем влиянии здесь",
+      home13: "Узнайте больше о том, кто мы и что мы можем вам предложить",
+      home14:
         "Спасибо вам за поддержку будущего сотен молодых женщин в Казахстане",
       formname: "Имя",
       formemail: "Электронная почта",
@@ -464,15 +464,13 @@ const resources = {
 
 const savedLanguage = localStorage.getItem("language") || "en";
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources,
-    lng: savedLanguage, // Save selected language
-    interpolation: {
-      escapeValue: false,
-    },
-  });
+i18n.use(initReactI18next).init({
+  resources,
+  lng: savedLanguage, // Save selected language
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 i18n.on("languageChanged", (lang) => {
   localStorage.setItem("language", lang); // Save selected language
