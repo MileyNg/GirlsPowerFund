@@ -86,13 +86,15 @@
     white;
 }
 
-.social-buttons, .redirect-buttons {
+.social-buttons,
+.redirect-buttons {
   display: flex;
   gap: 2%;
   margin-bottom: 2%;
 }
 
-.social-buttons a, .redirect-buttons a {
+.social-buttons a,
+.redirect-buttons a {
   padding: 8px 20px;
   color: #49347c;
   background-color: white;
@@ -102,14 +104,38 @@
   transition: background-color 0.3s ease;
 }
 
-.social-buttons a:hover, .redirect-buttons a:hover {
+.social-buttons a:hover,
+.redirect-buttons a:hover {
   background-color: #49347c;
   color: white;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .quote {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.quote-link {
+  color: #14142B;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.quote-link h5 {
+  color: #14142B;
+}
+
+.quote-link a {
+  color: #14142B;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 /* General container */

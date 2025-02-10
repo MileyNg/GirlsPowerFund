@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
+import { Container} from "react-bootstrap";
 
 const Quote = ({ translationKey }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="container quote">
+    <Container className="quote">
       <h2>{t(translationKey)}</h2>
-    </div>
+    </Container>
   );
 };
 
