@@ -1,13 +1,14 @@
-import React from "react";
 import "../../components/languages";
+import { useTranslation } from "react-i18next";
 import Cards from "../../components/Cards";
 import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
 import ImageText from "../../components/ImageText";
-import { useTranslation } from "react-i18next";
+import ImageQuote from "../../components/ImageQuote";
 import Grouppic from "../../img/home_1.png";
 import Workpic from "../../img/pic2.jpg";
 import AboutUs2 from "../../img/aboutus2.png";
+import Girl2 from "../../img/QuoteGirl2.png";
 
 function Programs() {
   const { t } = useTranslation();
@@ -44,10 +45,19 @@ function Programs() {
     alt: "Community",
   };
 
+  const quote = {
+    background: "background-gradient-4",
+    text: t("programs1"),
+    author: t("programs1author"),
+    image: Girl2,
+    alt: "Girl",
+  };
+
   return (
-    <div>
+    <div className="background-gradient">
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
+      <ImageQuote data={quote} />
       <Quote text={t("home2")} />
       <Cards />
       <Quote text={t("home16")} background="background-purple" />

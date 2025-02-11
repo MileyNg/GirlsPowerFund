@@ -55,6 +55,13 @@
   background-repeat: no-repeat;
 }
 
+.background-gradient-4 {
+  background: linear-gradient(to right,
+      #dac4f9 20%,
+      #d2b4f5 40%,
+      #bd94ff 75%);
+}
+
 .background-purple {
   background: #f3eff7;
 }
@@ -82,7 +89,7 @@
       #bd94ff 75%,
       #ACAEFA 80%,
       transparent 80%),
-    white;
+      transparent;
 }
 
 .background-2-gradient {
@@ -175,26 +182,24 @@ img {
 
 .text-section {
   text-align: left;
-  padding: 20px;
+  padding: 50px;
 }
 
 .image-section {
   flex: 1;
   text-align: center;
-  margin: 20px;
 }
 
 .image-section img {
   height: auto;
-  border-radius: 15px;
-  padding: 5px;
+  border-radius: 50px;
+  padding: 30px;
 }
 
 .image-border-gradient {
   position: relative;
   display: inline-block;
-  border-radius: 12px;
-  padding: 13px;
+  border-radius: 15px;
   background: linear-gradient(to bottom,
       #dac4f9 0%,
       #d2b4f5 25%,
@@ -224,6 +229,7 @@ img {
   border-radius: 10px 0 0 10px;
   padding: 50px;
   height: 100%;
+  color: #49347C !important;
 }
 
 .quote-author {
@@ -231,6 +237,25 @@ img {
   font-size: 1.15rem;
   font-weight: 400;
   color: #b7a8d5 !important;
+}
+
+/* Image-Quote */
+.quote-text-container-2 {
+  padding-top: 25px;
+  padding-left: 0px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+}
+
+.quote-text-2 {
+  background: white;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0 10px 10px 0;
+  padding: 50px;
+  height: 100%;
+  color: #49347C !important;
 }
 
 .quote-image {

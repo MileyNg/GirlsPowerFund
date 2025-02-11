@@ -3,7 +3,6 @@ import "../../components/languages";
 import { Container, Row, Col } from "react-bootstrap";
 import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
-import ImageText from "../../components/ImageText";
 import { useTranslation } from "react-i18next";
 import JoinPic from "../../img/join.png";
 import Workpic from "../../img/pic2.jpg";
