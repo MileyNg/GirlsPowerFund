@@ -142,6 +142,12 @@ img {
   font-weight: 500;
 }
 
+.sponsor-text {
+  color: #14142B;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /* General container */
 .text-image-container {
   display: flex;
@@ -227,9 +233,9 @@ img {
 
 .custom-badge {
   background: linear-gradient(to right, #dac4f9, #b7a8e9);
-  padding: 10px 50px; /* Adjust padding */
-  border-radius: 0 !important; /* Square shape */
+  padding: 10px 50px; 
+  border-radius: 0 !important;
   position: absolute;
-  left: 0; /* Aligns to the left */
+  left: 0;
   font-weight: bold;
 }

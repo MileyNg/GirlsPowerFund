@@ -14,7 +14,6 @@ import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
 import Quote from "../../components/Quote";
 import ImageText from "../../components/ImageText";
-import Badge from "react-bootstrap/Badge";
 
 function OurTeam() {
   const { t } = useTranslation();

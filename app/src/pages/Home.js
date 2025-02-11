@@ -7,6 +7,7 @@ import Quote from "../components/Quote";
 import QuoteLink from "../components/QuoteLink";
 import TextImage from "../components/TextImage";
 import ImageText from "../components/ImageText";
+import QuoteImage from "../components/QuoteImage";
 import Homepic from "../img/home_1.png";
 import Grouppic from "../img/pic1.jpg";
 import Workpic from "../img/pic2.jpg";
@@ -57,6 +58,16 @@ function Home() {
     alt: "Community",
   };
 
+  const quote = {
+    background: "background-purple",
+    title: t("home8title"),
+    text: t("home8"),
+    href: "/programs/codingbootcamp",
+    buttonText: t("readmore"),
+    image: Workpic,
+    alt: "Working picture",
+  };
+
   return (
     <div>
       <TextImage1 />
@@ -65,6 +76,7 @@ function Home() {
       <Quote text={t("home7")} background="background-purple" />
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
+      <QuoteImage data={quote} />
       <QuoteLink data={alumni} />
       <TechImages />
       <TextImage data={difference} />
