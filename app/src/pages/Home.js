@@ -1,18 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../components/languages";
+import { useTranslation } from "react-i18next";
 import Cards from "../components/Cards";
 import Quote from "../components/Quote";
 import QuoteLink from "../components/QuoteLink";
 import TextImage from "../components/TextImage";
 import ImageText from "../components/ImageText";
-import { useTranslation } from "react-i18next";
 import Homepic from "../img/home_1.png";
 import Grouppic from "../img/pic1.jpg";
 import Workpic from "../img/pic2.jpg";
 import TechGirlsImage from "../img/techgirls.png";
 import RiseImage from "../img/rise.png";
 import TechnovationGirlsImage from "../img/technovationgirls.png";
+import AboutUs2 from "../img/aboutus2.png";
 import { FaInstagram } from "react-icons/fa";
 
 function Home() {
@@ -46,6 +47,16 @@ function Home() {
     linkText: t("home12"),
   };
 
+  const difference = {
+    borderImage: "image-border-gradient",
+    title: t("home17title"),
+    text: t("home17"),
+    href: "/donate",
+    buttonText: t("donatenow"),
+    image: AboutUs2,
+    alt: "Community",
+  };
+
   return (
     <div>
       <TextImage1 />
@@ -56,6 +67,7 @@ function Home() {
       <ImageText data={accelerate} />
       <QuoteLink data={alumni} />
       <TechImages />
+      <TextImage data={difference} />
     </div>
   );
 }

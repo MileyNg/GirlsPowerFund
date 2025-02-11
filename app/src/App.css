@@ -185,6 +185,13 @@ img {
       #dac4f9 100%);
 }
 
+.image-border-purple img {
+  background: #f3eff7;
+  padding: 13px;
+}
+
+
+
 /* Cards */
 .cards {
   display: flex;
@@ -216,6 +223,17 @@ img {
 
 .card-description {
   font-size: 0.9rem;
+}
+
+
+
+.custom-badge {
+  background: linear-gradient(to right, #dac4f9, #b7a8e9);
+  padding: 10px 50px;
+  border-radius: 0 !important;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
 
 .big-numbers {

@@ -22,7 +22,6 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/aboutus/ourteam" element={<OurTeam />} />
           <Route path="/getinvolved" element={<GetInvolved />} />
-          <Route path="/donate" element={<Donate />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/programs/codingbootcamp" element={<CodingBootcamp />} />
           <Route
@@ -30,6 +29,8 @@ function App() {
             element={<Entrepreneurship />}
           />
           <Route path="/impact" element={<Impact />} />
+
+          <Route path="/donate" element={<Donate />} />
         </Routes>
         <Footer />
       </Router>
