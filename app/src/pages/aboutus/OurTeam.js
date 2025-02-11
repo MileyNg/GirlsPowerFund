@@ -6,10 +6,12 @@ import ceo_pic from "../../img/ceo_pic.jpg";
 import member_1_pic from "../../img/team_member_1.png";
 import member_2_pic from "../../img/team_member_2.png";
 import member_3_pic from "../../img/team_member_3.png";
+import obama_pic from "../../img/pic8.jpg";
 import "react-vertical-timeline-component/style.min.css";
 import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
 import Quote from "../../components/Quote";
+import ImageText from "../../components/ImageText";
 
 function OurTeam() {
   const { t } = useTranslation();
@@ -18,11 +20,22 @@ function OurTeam() {
     title: t("ourteam1title"),
     text: t("ourteam1"),
   };
+  const data2 = {
+    background: "background-purple",
+    title: t("ourteam4title"),
+    text: t("ourteam4"),
+    href: "/aboutus/newsandmediamentions",
+    buttonText: t("readmore"),
+    image: obama_pic,
+    alt: "Obama picture",
+    borderImage: "image-border-gradient",
+  };
   return (
     <div className="background-purple">
       <TextLeft data={data} />
       <TeamCards />
       <Quote text={t("ourteam2")} />
+      <ImageText data={data2} />
     </div>
   );
 }
@@ -65,7 +78,7 @@ function TeamCards() {
               />
               <p>{card.title}</p>
               <div className="card-description">
-                <h4>{card.description}</h4>
+                <h5>{card.description}</h5>
               </div>
             </Col>
           ))}

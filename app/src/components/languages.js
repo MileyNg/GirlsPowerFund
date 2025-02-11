@@ -18,6 +18,7 @@ const resources = {
       codingbootcamp: "Coding Bootcamp",
       entrepreneurship: "Entrepreneurship",
       donate: "Donate",
+      donatenow: "Donate Now",
       impact: "Our Impact",
       ourapproach: "Our Approach",
       history: "Our History",
@@ -73,7 +74,7 @@ const resources = {
       home16: "Invest in Kazakhstan's Next Generation of Women Leaders",
       home17title: "MAKE A DIFFERENCE TODAY!",
       home17:
-        "We're raising funds for the 2024-2025 school year, to empower at least 100. Help us reach more students across Kazakhstan!",
+        "We're raising funds for the 2024-2025 school year, to empower at least 100 students with a personal computer and Wi-Fi hotspot to be prepared for college applications, scholarships, summer programs,a nnd online professional development. Help us reach more students across Kazakhstan!",
       aboutus1title: "The Movement Continues",
       aboutus1:
         "Girls Power Fund has evolved into a dynamic movement, inspiring and empowering girls worldwide. Our journey is defined by resilience, growth, and a steadfast commitment to equality and representation. We continue to build programs that break barriers and create lasting opportunities, ensuring every girl has the support she needs to realize her dreams.",
@@ -172,6 +173,7 @@ const resources = {
       codingbootcamp: "Coding Bootcamp",
       entrepreneurship: "Entrepreneurship",
       donate: "Spenden",
+      donatenow: "Jetzt Spenden",
       impact: "Unsere Wirkung",
       ourapproach: "Unser Ansatz",
       history: "Unsere Geschichte",
@@ -228,7 +230,7 @@ const resources = {
         "Investieren Sie in die nächste Generation weiblicher Führungskräfte in Kasachstan",
       home17title: "MACHEN SIE HEUTE EINEN UNTERSCHIED!",
       home17:
-        "Wir sammeln Mittel für das Schuljahr 2024-2025, um mindestens 100 Teilnehmerinnen zu stärken. Helfen Sie uns, mehr Schülerinnen in ganz Kasachstan zu erreichen!",
+        "Wir sammeln Spenden für das Schuljahr 2024-2025, um mindestens 100 Schüler:innen mit einem eigenen Computer und einem WLAN-Hotspot auszustatten, damit sie optimal auf Bewerbungen für Universitäten, Stipendien, Sommerprogramme und Online-Weiterbildungen vorbereitet sind. Helfen Sie uns, noch mehr Schüler:innen in ganz Kasachstan zu erreichen!",
       aboutus1title: "Die Bewegung geht weiter",
       aboutus1:
         "Girls Power Fund hat sich zu einer dynamischen Bewegung entwickelt, die Mädchen weltweit inspiriert und stärkt. Unsere Reise ist geprägt von Widerstandsfähigkeit, Wachstum und einem unerschütterlichen Engagement für Gleichheit und Repräsentation. Wir entwickeln weiterhin Programme, die Barrieren durchbrechen und dauerhafte Chancen schaffen, damit jedes Mädchen die Unterstützung erhält, die es braucht, um seine Träume zu verwirklichen.",
@@ -330,6 +332,7 @@ const resources = {
       codingbootcamp: "Кодинг Буткемп",
       entrepreneurship: "Предпринимательство",
       donate: "Пожертвовать",
+      donatenow: "Пожертвовать cейчас",
       impact: "Наше влияние",
       ourapproach: "Наш подход",
       history: "Наша история",
@@ -385,7 +388,7 @@ const resources = {
       home16: "Инвестируйте в следующее поколение женщин-лидеров Казахстана",
       home17title: "СДЕЛАЙТЕ РАЗНИЦУ СЕГОДНЯ!",
       home17:
-        "Мы собираем средства на 2024-2025 учебный год, чтобы помочь как минимум 100 студентам. Помогите нам охватить больше учеников по всему Казахстану!",
+        "Мы собираем средства на 2024-2025 учебный год, чтобы обеспечить как минимум 100 студентов персональными компьютерами и Wi-Fi хотспотами, подготовив их к поступлению в университет, получению стипендий, летним программам и онлайн-профессиональному развитию. Помогите нам охватить ещё больше студентов по всему Казахстану!",
       aboutus1title: "Движение продолжается",
       aboutus1:
         "Фонд Girls Power превратился в динамичное движение, вдохновляющее и поддерживающее девочек по всему миру. Наш путь определяется стойкостью, ростом и приверженностью равенству и представлению. Мы продолжаем создавать программы, разрушающие барьеры и создающие длительные возможности, обеспечивая поддержку каждой девочке для достижения ее мечты.",
