@@ -145,6 +145,7 @@ const resources = {
       codingbootcamp5:
         "young women participants have benefitted from our hackathons, STEM bootcamp and trainings",
       codingbootcamp6: "Interested in Owning Your Own Business?",
+      entrepreneurshiptitle: "Benefits of Accelerate",
       entrepreneurship1title: "Make Money",
       entrepreneurship1:
         "You will gain access to investments to scale your business and find new partnerships.",
@@ -311,6 +312,7 @@ const resources = {
         "700 junge Frauen haben von unseren Hackathons, STEM-Bootcamps und Trainings profitiert",
       codingbootcamp6:
         "Interessiert daran, dein eigenes Unternehmen zu führen?",
+      entrepreneurshiptitle: "Vorteile des Programms",
       entrepreneurship1title: "Geld verdienen",
       entrepreneurship1:
         "Sie erhalten Zugang zu Investitionen, um Ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
@@ -476,6 +478,7 @@ const resources = {
       codingbootcamp5:
         "700 участниц получили пользу от наших хакатонов, STEM-буткемпов и тренингов.",
       codingbootcamp6: "Интересуетесь созданием собственного бизнеса?",
+      entrepreneurshiptitle: "Преимущества программы",
       entrepreneurship1title: "Заработать деньги",
       entrepreneurship1:
         "Вы получите доступ к инвестициям для масштабирования вашего бизнеса и нахождения новых партнерств.",

@@ -16,14 +16,14 @@ function Entrepreneurship() {
   const { t } = useTranslation();
 
   const accelerate = {
-    background: "background-purple",
+    background: "",
     title: t("home9title"),
     text: t("home9"),
     href: "/donate",
     buttonText: t("donate"),
     image: Grouppic,
     alt: "Entrepreneurship",
-    borderImage: "image-border-gradient",
+    borderImage: "",
   };
   const join = {
     background: "",
@@ -47,7 +47,10 @@ function Entrepreneurship() {
 
   return (
     <div>
-      <ImageText data={accelerate} />
+      <div className="background-gradient">
+        <TextImage data={accelerate} />
+      </div>
+      <Quote text={t("entrepreneurshiptitle")} />
       <CardsBenefits />
       <Quote text={t("codingbootcamp5title")} />
       <TextImage data={join} />
