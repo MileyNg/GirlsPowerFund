@@ -59,7 +59,8 @@
   background: linear-gradient(to right,
       #dac4f9 20%,
       #d2b4f5 40%,
-      #bd94ff 75%);
+      #bd94ff 60%,
+      #ACAEFA 85%);
 }
 
 .background-purple {
@@ -89,7 +90,7 @@
       #bd94ff 75%,
       #ACAEFA 80%,
       transparent 80%),
-      transparent;
+    transparent;
 }
 
 .background-2-gradient {
@@ -210,7 +211,7 @@ img {
 
 .image-border-purple img {
   background: #f3eff7;
-  padding: 13px;
+  border-radius: 20px;
 }
 
 /* Quote-Image */
