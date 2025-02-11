@@ -80,14 +80,14 @@ function CardsBenefits({ background }) {
             <p>{t("codingbootcamp2")}</p>
           </div>
         </Col>
-        <Col className="align-items-center" md={3} key={0}>
+        <Col className="align-items-center" md={3} key={1}>
           <TbMoneybag size={100} color="" className="mb-3" />
           <h1>{t("entrepreneurship1title")}</h1>
           <div className="card-description">
             <p>{t("entrepreneurship1")}</p>
           </div>
         </Col>
-        <Col className="align-items-center" md={3} key={0}>
+        <Col className="align-items-center" md={3} key={2}>
           <FaHandshake size={100} color="gold" className="mb-3" />
           <h1>{t("codingbootcamp4title")}</h1>
           <div className="card-description">
