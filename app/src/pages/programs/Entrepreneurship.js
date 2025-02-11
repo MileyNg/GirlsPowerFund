@@ -8,7 +8,6 @@ import { TbMoneybag } from "react-icons/tb";
 import { FaHandshake } from "react-icons/fa6";
 import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
-import ImageText from "../../components/ImageText";
 import AboutUs2 from "../../img/aboutus2.png";
 import JoinPic from "../../img/join.png";
 
