@@ -106,7 +106,7 @@ const resources = {
       ourteammember3name: "Aruzhan Nurmakhanova",
       ourteam2: "A few words from our CEO & Founder",
       ourteam3:
-        "'Last year was a period of exponential growth for Girls Power fund. After completing the Obama Scholars Program at Columbia University, I came back with increased motivation, improved skills and network. Our fund received first international grants (from the UK and the US), started its first international program, expanding from just Kazakhstan to other Central Asian countries funded by USAID FGI and transformed from non profit to social venture. Our fund was also awarded as top 45 social projects founded by Young global changers, chosen among 700 applications worldwide'",
+        '"Last year was a period of exponential growth for Girls Power fund. After completing the Obama Scholars Program at Columbia University, I came back with increased motivation, improved skills and network. Our fund received first international grants (from the UK and the US), started its first international program, expanding from just Kazakhstan to other Central Asian countries funded by USAID FGI and transformed from non profit to social venture. Our fund was also awarded as top 45 social projects founded by Young global changers, chosen among 700 applications worldwide."',
       featured: "Featured",
       ourteam4title: "First from the Post Soviet Region",
       ourteam4:
@@ -262,7 +262,7 @@ const resources = {
       ourteammember3name: "Aruzhan Nurmakhanova",
       ourteam2: "Ein paar Worte von unserer CEO & Gründerin",
       ourteam3:
-        "'Das letzte Jahr war eine Phase exponentiellen Wachstums für den Girls Power Fund. Nachdem ich das Obama Scholars Program an der Columbia University abgeschlossen hatte, kam ich mit mehr Motivation, verbesserten Fähigkeiten und einem erweiterten Netzwerk zurück. Unser Fund erhielt die ersten internationalen Stipendien (aus Großbritannien und den USA), startete sein erstes internationales Programm, das von Kasachstan auf andere zentralasiatische Länder ausgeweitet wurde, finanziert von USAID FGI, und verwandelte sich von einer gemeinnützigen Organisation in ein soziales Unternehmen. Unser Fund wurde auch als eines der besten 45 sozialen Projekte von den Young Global Changers ausgezeichnet, ausgewählt aus 700 Bewerbungen weltweit.'",
+        '"Das letzte Jahr war eine Phase exponentiellen Wachstums für den Girls Power Fund. Nachdem ich das Obama Scholars Program an der Columbia University abgeschlossen hatte, kam ich mit mehr Motivation, verbesserten Fähigkeiten und einem erweiterten Netzwerk zurück. Unser Fund erhielt die ersten internationalen Stipendien (aus Großbritannien und den USA), startete sein erstes internationales Programm, das von Kasachstan auf andere zentralasiatische Länder ausgeweitet wurde, finanziert von USAID FGI, und verwandelte sich von einer gemeinnützigen Organisation in ein soziales Unternehmen. Unser Fund wurde auch als eines der besten 45 sozialen Projekte von den Young Global Changers ausgezeichnet, ausgewählt aus 700 Bewerbungen weltweit."',
       featured: "Vorstellung",
       ourteam4title: "Die Erste aus der post-sowjetischen Region",
       ourteam4:
@@ -420,7 +420,7 @@ const resources = {
       ourteammember3name: "Аружан Нурмаханова",
       ourteam2: "Несколько слов от нашего генерального директора и основателя",
       ourteam3:
-        "'Прошлый год был периодом экспоненциального роста для фонда Girls Power. После завершения программы Obama Scholars в Колумбийском университете я вернулась с повышенной мотивацией, улучшенными навыками и сетью контактов. Наш фонд получил первые международные гранты (из Великобритании и США), запустил свою первую международную программу, расширившись из Казахстана на другие страны Центральной Азии благодаря финансированию USAID FGI и преобразовавшись из некоммерческой организации в социальное предприятие. Наш фонд также был отмечен как один из 45 лучших социальных проектов, созданных молодыми глобальными лидерами, выбранных из 700 заявок со всего мира.'",
+        '"Прошлый год был периодом экспоненциального роста для фонда Girls Power. После завершения программы Obama Scholars в Колумбийском университете я вернулась с повышенной мотивацией, улучшенными навыками и сетью контактов. Наш фонд получил первые международные гранты (из Великобритании и США), запустил свою первую международную программу, расширившись из Казахстана на другие страны Центральной Азии благодаря финансированию USAID FGI и преобразовавшись из некоммерческой организации в социальное предприятие. Наш фонд также был отмечен как один из 45 лучших социальных проектов, созданных молодыми глобальными лидерами, выбранных из 700 заявок со всего мира."',
       featured: "В центре внимания",
       ourteam4title: "Первая из постсоветского региона",
       ourteam4:

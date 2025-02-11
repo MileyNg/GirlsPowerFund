@@ -14,17 +14,18 @@ import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
 import Quote from "../../components/Quote";
 import ImageText from "../../components/ImageText";
+import Badge from "react-bootstrap/Badge";
 
 function OurTeam() {
   const { t } = useTranslation();
   const data = {
-    background: "background-purple",
+    background: "",
     title: t("ourteam1title"),
     text: t("ourteam1"),
   };
 
   const data2 = {
-    background: "background-purple",
+    background: "",
     image: video_pic,
     alt: "Video",
     borderImage: "image-border-gradient",
@@ -36,7 +37,7 @@ function OurTeam() {
     borderImage: "",
   };
   const data4 = {
-    background: "background-purple",
+    background: "",
     title: t("ourteam4title"),
     text: t("ourteam4"),
     href: "/aboutus/newsandmediamentions",
@@ -47,12 +48,20 @@ function OurTeam() {
   };
 
   return (
-    <div className="background-purple">
-      <TextLeft data={data} />
-      <TeamCards />
+    <div>
+      <div className="background-gradient">
+        <TextLeft data={data} />
+        <TeamCards />
+      </div>
       <Quote text={t("ourteam2")} />
       <ImageBackground data={data2} />
       <ImageBackground data={data3} />
+      <QuoteCard />
+      <div className="text-image-container">
+        <h3>
+          <span className="custom-badge">{t("featured")}</span>
+        </h3>
+      </div>
       <ImageText data={data4} />
     </div>
   );
@@ -116,6 +125,38 @@ function ImageBackground({ data }) {
         </Col>
       </Row>
     </Container>
+  );
+}
+
+function QuoteCard() {
+  const { t } = useTranslation();
+  const cardData = [
+    {
+      title: (
+        <h5 className="card-title">
+          {t("ourteamceoname")} - {t("ourteamceo")} of {t("company")}
+        </h5>
+      ),
+      image: ceo_pic,
+      description: <p>{t("ourteam3")}</p>,
+    },
+  ];
+
+  return (
+    <div className="background-purple">
+      <Container className="cards-container">
+        <Row className="cards">
+          {cardData.map((card, index) => (
+            <Col className="card" md={10} key={index}>
+              <div className="card-description">
+                <h5>{card.description}</h5>
+              </div>
+              <p>{card.title}</p>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
 }
 
