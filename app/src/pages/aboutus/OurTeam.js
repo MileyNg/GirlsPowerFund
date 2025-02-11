@@ -7,6 +7,8 @@ import member_1_pic from "../../img/team_member_1.png";
 import member_2_pic from "../../img/team_member_2.png";
 import member_3_pic from "../../img/team_member_3.png";
 import obama_pic from "../../img/pic8.jpg";
+import presentation_pic from "../../img/presentation.png";
+import video_pic from "../../img/video_pic.png";
 import "react-vertical-timeline-component/style.min.css";
 import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
@@ -20,7 +22,20 @@ function OurTeam() {
     title: t("ourteam1title"),
     text: t("ourteam1"),
   };
+
   const data2 = {
+    background: "background-purple",
+    image: video_pic,
+    alt: "Video",
+    borderImage: "image-border-gradient",
+  };
+  const data3 = {
+    background: "background-stripes",
+    image: presentation_pic,
+    alt: "Presentation picture",
+    borderImage: "",
+  };
+  const data4 = {
     background: "background-purple",
     title: t("ourteam4title"),
     text: t("ourteam4"),
@@ -28,14 +43,17 @@ function OurTeam() {
     buttonText: t("readmore"),
     image: obama_pic,
     alt: "Obama picture",
-    borderImage: "image-border-gradient",
+    borderImage: "",
   };
+
   return (
     <div className="background-purple">
       <TextLeft data={data} />
       <TeamCards />
       <Quote text={t("ourteam2")} />
-      <ImageText data={data2} />
+      <ImageBackground data={data2} />
+      <ImageBackground data={data3} />
+      <ImageText data={data4} />
     </div>
   );
 }
@@ -74,7 +92,8 @@ function TeamCards() {
               <Image
                 src={card.image}
                 alt="card-images"
-                className="card-image"
+                className="team-card-image"
+                roundedCircle
               />
               <p>{card.title}</p>
               <div className="card-description">
@@ -85,6 +104,18 @@ function TeamCards() {
         </Row>
       </Container>
     </div>
+  );
+}
+
+function ImageBackground({ data }) {
+  return (
+    <Container className={`text-image-container ${data.background}`}>
+      <Row className="content-container">
+        <Col md={6} className={`image-section ${data.borderImage}`}>
+          <img src={data.image} alt={data.alt} />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
