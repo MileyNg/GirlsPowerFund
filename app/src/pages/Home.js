@@ -15,6 +15,7 @@ import TechGirlsImage from "../img/techgirls.png";
 import RiseImage from "../img/rise.png";
 import TechnovationGirlsImage from "../img/technovationgirls.png";
 import AboutUs2 from "../img/aboutus2.png";
+import Girl1 from "../img/QuoteGirl1.png";
 import { FaInstagram } from "react-icons/fa";
 
 function Home() {
@@ -59,13 +60,11 @@ function Home() {
   };
 
   const quote = {
-    background: "background-purple",
-    title: t("home8title"),
-    text: t("home8"),
-    href: "/programs/codingbootcamp",
-    buttonText: t("readmore"),
-    image: Workpic,
-    alt: "Working picture",
+    background: "background-2-gradient",
+    text: t("home10"),
+    author: t("home10author"),
+    image: Girl1,
+    alt: "Girl",
   };
 
   return (

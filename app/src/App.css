@@ -59,7 +59,6 @@
   background: #f3eff7;
 }
 
-
 .background-stripes {
   background: linear-gradient(to bottom,
       transparent 0%,
@@ -84,6 +83,20 @@
       #ACAEFA 80%,
       transparent 80%),
     white;
+}
+
+.background-2-gradient {
+  background:
+    linear-gradient(to bottom,
+      #dac4f9 20%,
+      #d2b4f5 40%,
+      #bd94ff 75%,
+      transparent 75%),
+    linear-gradient(to bottom,
+      #dac4f9 75%,
+      #d2b4f5 80%,
+      #bd94ff 90%,
+      #ACAEFA 98%)
 }
 
 .social-buttons,
@@ -161,7 +174,6 @@ img {
 }
 
 .text-section {
-  /* Text section takes up more space */
   text-align: left;
   padding: 20px;
 }
@@ -196,7 +208,34 @@ img {
   padding: 13px;
 }
 
+/* Quote-Image */
+.quote-text-container {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  padding-right: 0px;
+}
 
+.quote-text {
+  background: white;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 10px 0 0 10px;
+  padding: 50px;
+  height: 100%;
+}
+
+.quote-author {
+  padding-top: 15px;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #b7a8d5 !important;
+}
+
+.quote-image {
+  padding: 0;
+}
 
 /* Cards */
 .cards {
@@ -233,7 +272,7 @@ img {
 
 .custom-badge {
   background: linear-gradient(to right, #dac4f9, #b7a8e9);
-  padding: 10px 50px; 
+  padding: 10px 50px;
   border-radius: 0 !important;
   position: absolute;
   left: 0;
