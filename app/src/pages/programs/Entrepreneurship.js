@@ -1,15 +1,17 @@
 import React from "react";
 import "../../components/languages";
-import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import Grouppic from "../../img/home_1.png";
+import { Container, Row, Col } from "react-bootstrap";
 import { GiBrain } from "react-icons/gi";
 import { TbMoneybag } from "react-icons/tb";
 import { FaHandshake } from "react-icons/fa6";
 import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
+import ImageQuote from "../../components/ImageQuote";
 import AboutUs2 from "../../img/aboutus2.png";
 import JoinPic from "../../img/join.png";
+import Girl3 from "../../img/QuoteGirl3.png";
+import Grouppic from "../../img/home_1.png";
 
 function Entrepreneurship() {
   const { t } = useTranslation();
@@ -43,12 +45,20 @@ function Entrepreneurship() {
     image: AboutUs2,
     alt: "Community",
   };
+  const quote = {
+    background: "background-gradient-4",
+    text: t("programs1"),
+    author: t("programs1author"),
+    image: Girl3,
+    alt: "Girl",
+  };
 
   return (
     <div className="background-gradient">
       <TextImage data={accelerate} />
       <Quote text={t("entrepreneurshiptitle")} />
       <CardsBenefits />
+      <ImageQuote data={quote} />
       <Quote text={t("codingbootcamp5title")} />
       <TextImage data={join} />
       <Quote text={t("home16")} background="background-purple" />

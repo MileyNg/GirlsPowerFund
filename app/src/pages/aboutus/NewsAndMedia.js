@@ -8,7 +8,6 @@ import ImageText from "../../components/ImageText";
 import TextImage from "../../components/TextImage";
 import community_pic from "../../img/aboutus2.png";
 import Quote from "../../components/Quote";
-import { FaInstagram } from "react-icons/fa";
 
 function NewsAndMedia() {
   const { t } = useTranslation();
