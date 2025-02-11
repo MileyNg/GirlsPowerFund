@@ -50,7 +50,6 @@
 }
 
 .background-gradient {
-  width: 100vw;
   background: linear-gradient(to bottom, #f3eff7, white);
   background-repeat: no-repeat;
 }

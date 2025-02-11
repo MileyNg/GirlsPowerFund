@@ -45,10 +45,8 @@ function Entrepreneurship() {
   };
 
   return (
-    <div>
-      <div className="background-gradient">
-        <TextImage data={accelerate} />
-      </div>
+    <div className="background-gradient">
+      <TextImage data={accelerate} />
       <Quote text={t("entrepreneurshiptitle")} />
       <CardsBenefits />
       <Quote text={t("codingbootcamp5title")} />

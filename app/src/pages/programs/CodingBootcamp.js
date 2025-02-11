@@ -46,7 +46,7 @@ function CodingBootcamp() {
   };
 
   return (
-    <div>
+    <div className="background-gradient">
       <TextImage data={girlsInSTEM} />
       <Quote text={t("codingbootcamp1")} />
       <CardsBenefits />
