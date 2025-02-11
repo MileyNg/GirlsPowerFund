@@ -39,7 +39,7 @@ function OurTeam() {
     background: "",
     title: t("ourteam4title"),
     text: t("ourteam4"),
-    href: "/aboutus/newsandmediamentions",
+    href: "/aboutus/newsandmedia",
     buttonText: t("readmore"),
     image: obama_pic,
     alt: "Obama picture",
