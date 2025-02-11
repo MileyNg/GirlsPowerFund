@@ -8,6 +8,7 @@ import ImageText from "../../components/ImageText";
 import TextImage from "../../components/TextImage";
 import community_pic from "../../img/aboutus2.png";
 import Quote from "../../components/Quote";
+import { FaInstagram } from "react-icons/fa";
 
 function NewsAndMedia() {
   const { t } = useTranslation();
@@ -15,8 +16,8 @@ function NewsAndMedia() {
     background: "",
     title: t("ourteam4title"),
     text: t("ourteam4"),
-    href: "/aboutus",
-    buttonText: t("readmore"),
+    href: "mailto:girlspowerfund@gmail.com",
+    buttonText: t("contactus"),
     image: obama_pic,
     alt: "Obama picture",
     borderImage: "",
@@ -26,8 +27,8 @@ function NewsAndMedia() {
     background: "",
     title: t("undpboost"),
     text: t("newsandmediamentions1"),
-    href: "/aboutus",
-    buttonText: t("readmore"),
+    href: "/getinvolved",
+    buttonText: t("getinvolved"),
     image: undp_pic,
     alt: "UNDP picture",
     borderImage: "",

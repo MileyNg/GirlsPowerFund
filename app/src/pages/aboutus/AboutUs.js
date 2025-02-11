@@ -17,7 +17,7 @@ function AboutUs() {
     background: "",
     title: t("ourstory"),
     text: t("home1"),
-    href: "/programs/getinvolved",
+    href: "/getinvolved",
     buttonText: t("getinvolved"),
     image: OurStory,
     alt: "CEO",
