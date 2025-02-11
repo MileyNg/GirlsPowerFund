@@ -10,6 +10,8 @@ const resources = {
       ourstory: "Our Story",
       ourteam: "Our Team",
       newsandmediamentions: "News and Media Mentions",
+      news: "News",
+      media: "Media Mentions",
       contactus: "Contact Us",
       getinvolved: "Get Involved",
       waystosupport: "Ways to support",
@@ -123,6 +125,7 @@ const resources = {
         "Make a difference by sponsoring our programs or donating today. Your support directly empowers girls and helps build brighter futures.",
       getinvolved5: "Money raised in year",
       getinvolved6: "Trusted by 10+ companies, NGOs around the world",
+      undpboost: "UNDP BOOST",
       newsandmediamentions1:
         "Girls Power Fund focuses on encouraging girls and young women to enrich and build their knowledge using both traditional and non-traditional approaches in education. The team conducts hard and soft skills trainings for girls from underserved communities, such as STEM courses, and personal development and financial literacy trainings.",
       programs1:
@@ -165,6 +168,8 @@ const resources = {
       ourstory: "Unsere Geschichte",
       ourteam: "Unser Team",
       newsandmediamentions: "Presseerwähnungen",
+      media: "Presseerwähnungen",
+      news: "Neuigkeiten",
       contactus: "Kontaktiere Uns",
       getinvolved: "Engagiere dich",
       waystosupport: "Beteiligungsmöglichkeiten ",
@@ -280,6 +285,7 @@ const resources = {
         "Machen Sie einen Unterschied, indem Sie unsere Programme sponsern oder heute spenden. Ihre Unterstützung stärkt direkt Mädchen und hilft, hellere Zukunftsperspektiven aufzubauen.",
       getinvolved5: "Gesammeltes Geld im Jahr",
       getinvolved6: "Vertrauen von über 10 Unternehmen und NGOs weltweit",
+      undpboost: "UNDP BOOST",
       newsandmediamentions1:
         "Der Girls Power Fund konzentriert sich darauf, Mädchen und junge Frauen zu ermutigen, ihr Wissen sowohl mit traditionellen als auch unkonventionellen Methoden in der Bildung zu erweitern und aufzubauen. Das Team führt Hard- und Soft-Skills-Schulungen für Mädchen aus benachteiligten Gemeinschaften durch, darunter MINT-Kurse sowie Schulungen zur persönlichen Entwicklung und Finanzkompetenz.",
       programs1:
@@ -324,6 +330,8 @@ const resources = {
       ourstory: "Наша история",
       ourteam: "Наша команда",
       newsandmediamentions: "Новости и упоминания в СМИ",
+      media: "Упоминания в СМИ",
+      news: "Новости",
       contactus: "Свяжитесь с нами",
       getinvolved: "Присоединяйтесь к нам",
       waystosupport: "Способы поддержки",
@@ -438,6 +446,7 @@ const resources = {
         "Окажите влияние, спонсируя наши программы или сделав пожертвование сегодня. Ваша поддержка напрямую помогает девочкам и способствует созданию светлого будущего.",
       getinvolved5: "Собрано средств за год",
       getinvolved6: "Доверяют более 10 компаний и НПО по всему миру",
+      undpboost: "UNDP BOOST",
       newsandmediamentions1:
         "Фонд Girls Power фокусируется на том, чтобы вдохновлять девочек и молодых женщин развивать и обогащать свои знания, используя как традиционные, так и нетрадиционные подходы в образовании. Команда проводит тренинги по твердым и мягким навыкам для девочек из малообеспеченных сообществ, такие как курсы STEM, а также тренинги по личностному развитию и финансовой грамотности.",
       programs1:

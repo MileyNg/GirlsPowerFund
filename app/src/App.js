@@ -11,6 +11,7 @@ import Entrepreneurship from "./pages/programs/Entrepreneurship";
 import CodingBootcamp from "./pages/programs/CodingBootcamp";
 import Impact from "./pages/Impact";
 import GetInvolved from "./pages/GetInvolved";
+import NewsAndMedia from "./pages/aboutus/NewsAndMedia";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/aboutus/ourteam" element={<OurTeam />} />
+          <Route path="/aboutus/newsandmedia" element={<NewsAndMedia />} />
           <Route path="/getinvolved" element={<GetInvolved />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/programs/codingbootcamp" element={<CodingBootcamp />} />
