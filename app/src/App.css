@@ -225,17 +225,11 @@ img {
   font-size: 0.9rem;
 }
 
-
-
 .custom-badge {
   background: linear-gradient(to right, #dac4f9, #b7a8e9);
-  padding: 10px 50px;
-  border-radius: 0 !important;
+  padding: 10px 50px; /* Adjust padding */
+  border-radius: 0 !important; /* Square shape */
   position: absolute;
-  left: 0;
+  left: 0; /* Aligns to the left */
   font-weight: bold;
-}
-
-.big-numbers {
-  font-size: 15rem;
 }
