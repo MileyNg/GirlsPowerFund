@@ -145,6 +145,11 @@ const resources = {
       codingbootcamp5:
         "young women participants have benefitted from our hackathons, STEM bootcamp and trainings",
       codingbootcamp6: "Interested in Owning Your Own Business?",
+      entrepreneurship1title: "Make Money",
+      entrepreneurship1:
+        "You will gain access to investments to scale your business and find new partnerships.",
+      entrepreneurship2:
+        "women participants learned business acumen and raised money for their ventures",
       ourimpact1:
         "Introducing Girls Power Fund - the ultimate tool for empowering young girls in STEM! With Girls Power Fund, we're breaking barriers and shattering stereotypes by providing girls with the resources they need to excel in the world of science, technology, engineering, and math.",
       ourimpact2: "95% of participants satisfied with educational experience",
@@ -306,6 +311,11 @@ const resources = {
         "700 junge Frauen haben von unseren Hackathons, STEM-Bootcamps und Trainings profitiert",
       codingbootcamp6:
         "Interessiert daran, dein eigenes Unternehmen zu führen?",
+      entrepreneurship1title: "Geld verdienen",
+      entrepreneurship1:
+        "Sie erhalten Zugang zu Investitionen, um Ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
+      entrepreneurship2:
+        "weibliche Teilnehmerinnen lernten Geschäftskompetenz und sammelten Geld für ihre Unternehmungen.",
       ourimpact1:
         "Der Girls Power Fund ist das ultimative Werkzeug zur Ermächtigung junger Mädchen im Bereich MINT! Mit dem Girls Power Fund brechen wir Barrieren und zerschlagen Stereotype, indem wir Mädchen die Ressourcen bieten, die sie benötigen, um in den Bereichen Wissenschaft, Technologie, Ingenieurwesen und Mathematik erfolgreich zu sein.",
       ourimpact2:
@@ -466,6 +476,11 @@ const resources = {
       codingbootcamp5:
         "700 участниц получили пользу от наших хакатонов, STEM-буткемпов и тренингов.",
       codingbootcamp6: "Интересуетесь созданием собственного бизнеса?",
+      entrepreneurship1title: "Заработать деньги",
+      entrepreneurship1:
+        "Вы получите доступ к инвестициям для масштабирования вашего бизнеса и нахождения новых партнерств.",
+      entrepreneurship2:
+        "женщин-участниц освоили бизнес-навыки и собрали деньги на свои проекты.",
       ourimpact1:
         "Представляем фонд Girls Power — главный инструмент для расширения возможностей молодых девушек в STEM! С фондом Girls Power мы ломаем барьеры и стереотипы, предоставляя девочкам ресурсы, необходимые для успеха в мире науки, технологий, инженерии и математики.",
       ourimpact2: "95% участников довольны образовательным опытом.",
