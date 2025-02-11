@@ -151,6 +151,9 @@ const resources = {
         "You will gain access to investments to scale your business and find new partnerships.",
       entrepreneurship2:
         "women participants learned business acumen and raised money for their ventures",
+      entrepreneurship3:
+        "Accelerate program has changed my life as I was able to find a supportive community and great mentors that helped me to improve my business. I improved my hard and soft skills as well as shifted my mindset about digitalization of my product.",
+      entrepreneurship3author: "Dina, Accelerate participant 2024",
       ourimpact1:
         "Introducing Girls Power Fund - the ultimate tool for empowering young girls in STEM! With Girls Power Fund, we're breaking barriers and shattering stereotypes by providing girls with the resources they need to excel in the world of science, technology, engineering, and math.",
       ourimpact2: "95% of participants satisfied with educational experience",
@@ -318,6 +321,9 @@ const resources = {
         "Sie erhalten Zugang zu Investitionen, um Ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
       entrepreneurship2:
         "weibliche Teilnehmerinnen lernten Geschäftskompetenz und sammelten Geld für ihre Unternehmungen.",
+      entrepreneurship3:
+        "Das Accelerate-Programm hat mein Leben verändert, da ich eine unterstützende Gemeinschaft und großartige Mentoren gefunden habe, die mir geholfen haben, mein Geschäft zu verbessern. Ich habe sowohl meine fachlichen als auch meine sozialen Kompetenzen verbessert und meine Einstellung zur Digitalisierung meines Produkts verändert.",
+      entrepreneurship3author: "Dina, Accelerate-Teilnehmerin 2024",
       ourimpact1:
         "Der Girls Power Fund ist das ultimative Werkzeug zur Ermächtigung junger Mädchen im Bereich MINT! Mit dem Girls Power Fund brechen wir Barrieren und zerschlagen Stereotype, indem wir Mädchen die Ressourcen bieten, die sie benötigen, um in den Bereichen Wissenschaft, Technologie, Ingenieurwesen und Mathematik erfolgreich zu sein.",
       ourimpact2:
@@ -457,7 +463,7 @@ const resources = {
       getinvolved4:
         "Окажите влияние, спонсируя наши программы или сделав пожертвование сегодня. Ваша поддержка напрямую помогает девочкам и способствует созданию светлого будущего.",
       getinvolved5: "Собрано средств за год",
-      getinvolved6: "Доверяют более 10 компаний и НПО по всему миру",
+      getinvolved6: "Нам доверяют более 10 компаний и НПО по всему миру",
       undpboost: "UNDP BOOST",
       newsandmediamentions1:
         "Фонд Girls Power фокусируется на том, чтобы вдохновлять девочек и молодых женщин развивать и обогащать свои знания, используя как традиционные, так и нетрадиционные подходы в образовании. Команда проводит тренинги по твердым и мягким навыкам для девочек из малообеспеченных сообществ, такие как курсы STEM, а также тренинги по личностному развитию и финансовой грамотности.",
@@ -484,6 +490,9 @@ const resources = {
         "Вы получите доступ к инвестициям для масштабирования вашего бизнеса и нахождения новых партнерств.",
       entrepreneurship2:
         "женщин-участниц освоили бизнес-навыки и собрали деньги на свои проекты.",
+      entrepreneurship3:
+        "Программа Accelerate изменила мою жизнь, так как я смогла найти поддерживающее сообщество и отличных наставников, которые помогли мне улучшить мой бизнес. Я развила как профессиональные, так и личностные навыки, а также изменила своё отношение к цифровизации моего продукта.",
+      entrepreneurship3author: "Дина, участница Accelerate 2024",
       ourimpact1:
         "Представляем фонд Girls Power — главный инструмент для расширения возможностей молодых девушек в STEM! С фондом Girls Power мы ломаем барьеры и стереотипы, предоставляя девочкам ресурсы, необходимые для успеха в мире науки, технологий, инженерии и математики.",
       ourimpact2: "95% участников довольны образовательным опытом.",

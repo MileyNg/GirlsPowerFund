@@ -47,8 +47,8 @@ function Entrepreneurship() {
   };
   const quote = {
     background: "background-gradient-4",
-    text: t("programs1"),
-    author: t("programs1author"),
+    text: t("entrepreneurship3"),
+    author: t("entrepreneurship3author"),
     image: Girl3,
     alt: "Girl",
   };
