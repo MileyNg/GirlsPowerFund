@@ -57,9 +57,9 @@ function OurTeam() {
       <ImageBackground data={data3} />
       <QuoteCard />
       <div className="text-image-container">
-        <h3>
+        <h1>
           <span className="custom-badge">{t("featured")}</span>
-        </h3>
+        </h1>
       </div>
       <ImageText data={data4} />
     </div>
