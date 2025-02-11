@@ -5,7 +5,7 @@ import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
 import ImageText from "../../components/ImageText";
 import { useTranslation } from "react-i18next";
-import Grouppic from "../../img/pic1.jpg";
+import Grouppic from "../../img/home_1.png";
 import Workpic from "../../img/pic2.jpg";
 import AboutUs2 from "../../img/aboutus2.png";
 
@@ -20,7 +20,7 @@ function Programs() {
     buttonText: t("readmore"),
     image: Workpic,
     alt: "Working picture",
-    borderImage: "image-border-gradient",
+    borderImage: "background-stripes",
   };
 
   const accelerate = {
@@ -31,26 +31,26 @@ function Programs() {
     buttonText: t("readmore"),
     image: Grouppic,
     alt: "Entrepreneurship",
-    borderImage: "image-border-gradient",
+    borderImage: "background-stripes",
   };
 
   const donate = {
-    background: "",
+    background: "background-purple",
     title: t("home17title"),
     text: t("home17"),
     href: "/donate",
-    buttonText: t("donate"),
+    buttonText: t("donatenow"),
     image: AboutUs2,
     alt: "Community",
   };
 
   return (
-    <div className="background-gradient">
+    <div>
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
       <Quote text={t("home2")} />
       <Cards />
-      <Quote text={t("home7")} background="background-purple" />
+      <Quote text={t("home16")} background="background-purple" />
       <TextImage data={donate} />
     </div>
   );

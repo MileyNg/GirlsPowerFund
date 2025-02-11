@@ -5,7 +5,7 @@ import Educationpic from "../img/pic2.jpg";
 import Representationpic from "../img/pic3.jpg";
 import Experiencepic from "../img/pic4.jpg";
 
-function Cards() {
+function Cards({ background }) {
   const { t } = useTranslation();
   const cardData = [
     {
@@ -26,7 +26,7 @@ function Cards() {
   ];
 
   return (
-    <Container className="cards-container background-stripes">
+    <Container className={`cards-container ${background}`}>
       <Row className="cards">
         {cardData.map((card, index) => (
           <Col className="card" md={3} key={index}>

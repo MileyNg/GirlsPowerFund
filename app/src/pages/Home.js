@@ -72,7 +72,7 @@ function Home() {
     <div>
       <TextImage1 />
       <Quote text={t("home2")} />
-      <Cards />
+      <Cards background={"background-stripes"} />
       <Quote text={t("home7")} background="background-purple" />
       <TextImage data={girlsInSTEM} />
       <ImageText data={accelerate} />
