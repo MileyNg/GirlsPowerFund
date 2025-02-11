@@ -164,8 +164,20 @@ img {
 
 .sponsor-text {
   color: #14142B;
-  font-size: 1.5rem;
+  font-size: 120%;
   font-weight: 600;
+}
+
+.impact-container {
+  padding-top: 50px;
+}
+
+.impact-container p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #8868ce;
 }
 
 /* General container */
