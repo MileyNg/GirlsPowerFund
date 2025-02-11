@@ -135,7 +135,7 @@ const resources = {
       codingbootcamp2title: "Learn New Skills",
       codingbootcamp2:
         "You will create real world projects using the web and app development technology your learned in the duration of the program.",
-      codingbootcamp3title: "Make Friends!",
+      codingbootcamp3title: "Make Friends",
       codingbootcamp3:
         "Build community with your teachers and the other girls learning new things just like you!",
       codingbootcamp4title: "Network",
@@ -143,7 +143,7 @@ const resources = {
         "This programs serves as a headstart for your professional development by exposing you and your peers to female leaders in STEM.",
       codingbootcamp5title: "Join The Community!",
       codingbootcamp5:
-        "700 young women participants have benefitted from our hackathons, STEM bootcamp and trainings",
+        "young women participants have benefitted from our hackathons, STEM bootcamp and trainings",
       codingbootcamp6: "Interested in Owning Your Own Business?",
       ourimpact1:
         "Introducing Girls Power Fund - the ultimate tool for empowering young girls in STEM! With Girls Power Fund, we're breaking barriers and shattering stereotypes by providing girls with the resources they need to excel in the world of science, technology, engineering, and math.",
@@ -295,7 +295,7 @@ const resources = {
       codingbootcamp2title: "Neue Fähigkeiten lernen",
       codingbootcamp2:
         "Du wirst reale Projekte erstellen, indem du Web- und App-Entwicklungstechnologien anwendest, die du während des Programms gelernt hast.",
-      codingbootcamp3title: "Freunde finden!",
+      codingbootcamp3title: "Freunde finden",
       codingbootcamp3:
         "Baue eine Gemeinschaft mit deinen Lehrerinnen und anderen Mädchen auf, die genauso wie du neue Dinge lernen!",
       codingbootcamp4title: "Netzwerken",
@@ -453,13 +453,13 @@ const resources = {
         "'Я счастлива, что присоединилась к программе Accelerate для женщин-предпринимателей, так как это помогло мне достичь первых 10 000 долларов дохода в моем бизнесе. Я также нашла сообщество поддерживающих и вдохновляющих женщин, которые помогли мне расти.'",
       programs1author: "Дина, участница Accelerate 2024",
       codingbootcamp1: "Преимущества участия девочек в STEM",
-      codingbootcamp2title: "Изучите новые навыки",
+      codingbootcamp2title: "Изучить новые навыки",
       codingbootcamp2:
         "Вы будете создавать проекты для реального мира, используя технологии веб- и мобильной разработки, изученные в рамках программы.",
-      codingbootcamp3title: "Заводите друзей!",
+      codingbootcamp3title: "Завести друзей",
       codingbootcamp3:
         "Стройте сообщество с вашими учителями и другими девочками, которые учатся новому, как и вы!",
-      codingbootcamp4title: "Сеть контактов",
+      codingbootcamp4title: "Новые контакты",
       codingbootcamp4:
         "Эта программа служит стартом для вашего профессионального развития, знакомя вас и ваших сверстников с женщинами-лидерами в STEM.",
       codingbootcamp5title: "Присоединяйтесь к сообществу!",
