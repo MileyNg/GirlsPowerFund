@@ -315,3 +315,9 @@ img {
   left: 0;
   font-weight: bold;
 }
+
+.team-card-image {
+  width: auto;
+  max-width: 100%;
+  height: 11rem;
+}
