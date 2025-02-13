@@ -1,3 +1,4 @@
+import React from "react";
 import "../../components/languages";
 import { useTranslation } from "react-i18next";
 import Cards from "../../components/Cards";
@@ -9,6 +10,7 @@ import Grouppic from "../../img/home_1.png";
 import Workpic from "../../img/pic2.jpg";
 import AboutUs2 from "../../img/aboutus2.png";
 import Girl2 from "../../img/QuoteGirl2.png";
+import YouTube from "react-youtube";
 
 function Programs() {
   const { t } = useTranslation();
@@ -60,10 +62,38 @@ function Programs() {
       <ImageQuote data={quote} />
       <Quote text={t("home2")} />
       <Cards />
+      <MovieClip />
       <Quote text={t("home16")} background="background-purple" />
       <TextImage data={donate} />
     </div>
   );
 }
 
+class MovieClip extends React.Component {
+  render() {
+    const options = {
+      height: "315",
+      width: "560",
+      playerVars: {
+        autoplay: 1,
+        controls: 1,
+      },
+    };
+
+    return (
+      <div className="text-image-container">
+        <YouTube
+          videoId="HPTuFaYXG50"
+          options={options}
+          onReady={this._onReady}
+          id="video"
+        />
+      </div>
+    );
+  }
+
+  _onReady(event) {
+    event.target.pauseVideo();
+  }
+}
 export default Programs;

@@ -8,12 +8,13 @@ import member_2_pic from "../../img/team_member_2.png";
 import member_3_pic from "../../img/team_member_3.png";
 import obama_pic from "../../img/pic8.jpg";
 import presentation_pic from "../../img/presentation.png";
-import video_pic from "../../img/video_pic.png";
 import "react-vertical-timeline-component/style.min.css";
 import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
 import Quote from "../../components/Quote";
 import ImageText from "../../components/ImageText";
+import { Link } from "react-router-dom";
+import YouTube from "react-youtube";
 
 function OurTeam() {
   const { t } = useTranslation();
@@ -23,18 +24,13 @@ function OurTeam() {
     text: t("ourteam1"),
   };
 
-  const data2 = {
-    background: "",
-    image: video_pic,
-    alt: "Video",
-    borderImage: "image-border-gradient",
-  };
   const data3 = {
     background: "background-stripes",
     image: presentation_pic,
     alt: "Presentation picture",
     borderImage: "",
   };
+
   const data4 = {
     background: "",
     title: t("ourteam4title"),
@@ -53,7 +49,7 @@ function OurTeam() {
         <TeamCards />
       </div>
       <Quote text={t("ourteam2")} />
-      <ImageBackground data={data2} />
+      <MovieClip />
       <ImageBackground data={data3} />
       <QuoteCard />
       <div className="text-image-container">
@@ -120,7 +116,9 @@ function ImageBackground({ data }) {
     <Container className={`text-image-container ${data.background}`}>
       <Row className="content-container">
         <Col md={6} className={`image-section ${data.borderImage}`}>
-          <img src={data.image} alt={data.alt} />
+          <Link to="https://www.youtube.com/watch?v=nd0E6PLE1EM">
+            <img src={data.image} alt={data.alt} />
+          </Link>
         </Col>
       </Row>
     </Container>
@@ -157,6 +155,34 @@ function QuoteCard() {
       </Container>
     </div>
   );
+}
+
+class MovieClip extends React.Component {
+  render() {
+    const options = {
+      height: "315",
+      width: "560",
+      playerVars: {
+        autoplay: 1,
+        controls: 1,
+      },
+    };
+
+    return (
+      <div className="text-image-container">
+        <YouTube
+          videoId="nd0E6PLE1EM"
+          options={options}
+          onReady={this._onReady}
+          id="video"
+        />
+      </div>
+    );
+  }
+
+  _onReady(event) {
+    event.target.pauseVideo();
+  }
 }
 
 export default OurTeam;

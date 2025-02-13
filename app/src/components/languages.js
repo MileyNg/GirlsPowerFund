@@ -33,16 +33,16 @@ const resources = {
       footer1: "Have a Question? We can Help!",
       footer2: "We typically respond within 72 hours!",
       footer3:
-        "Girls Power Fund is a platform to empower girls and young women through STEM and entrepreneurship education, mentorship, and opportunities, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
+        "Girls Power Fund is a platform to empower girls and young women through STEM and entrepreneurship education, mentorship, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
       home1:
-        "A platform to empower girls and young women through STEM and entrepreneurship education, mentorship, and opportunities, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
+        "A platform to empower girls and young women through STEM and entrepreneurship education, mentorship, fostering their skills, confidence, and leadership to thrive in a technology-driven world.",
       joinus: "Join our community!",
       home2:
         "Empowering the Next Generation of Innovators Through HANDS-ON LEARNING...",
       home3title: "Education",
       home3:
         "Our approach fosters creativity, critical thinking, and collaboration. Learners leave with confidence and the tools needed to succeed in dynamic environments.",
-      home4title: "Representation",
+      home4title: "Role Models",
       home4:
         "We bring inspirational female speakers and leaders to share their journeys, encouraging ambition and inclusivity. Empowers individuals to envision and achieve their goals.",
       home5title: "Hands on experience",
@@ -200,27 +200,27 @@ const resources = {
       footer1: "Haben Sie eine Frage? Wir helfen Ihnen gerne!",
       footer2: "Wir antworten in der Regel innerhalb von 72 Stunden!",
       footer3:
-        "Der Mädchen Power Fonds ist eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring und Möglichkeiten zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
+        "Girl Power Fund ist eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
       home1:
-        "Eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring und Möglichkeiten zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
-      joinus: "Treten Sie unserer Gemeinschaft bei!",
+        "Eine Plattform, um Mädchen und junge Frauen durch MINT- und Unternehmertumsausbildung, Mentoring zu stärken. Wir fördern ihre Fähigkeiten, ihr Selbstvertrauen und ihre Führungskompetenzen, damit sie in einer technologiegetriebenen Welt erfolgreich sein können.",
+      joinus: "Treten Sie unsere Community bei!",
       home2:
         "Die nächste Generation von Innovatoren durch PRAKTISCHES LERNEN stärken...",
       home3title: "Bildung",
       home3:
         "Unser Ansatz fördert Kreativität, kritisches Denken und Zusammenarbeit. Lernende verlassen unser Programm mit Selbstvertrauen und den Werkzeugen, die sie benötigen, um in dynamischen Umfeldern erfolgreich zu sein.",
-      home4title: "Repräsentation",
+      home4title: "Inspirierende Vorbilder",
       home4:
-        "Wir bringen inspirierende weibliche Rednerinnen und Führungspersönlichkeiten, die ihre Geschichten teilen und Ehrgeiz sowie Inklusion fördern. Dies befähigt Einzelpersonen, ihre Ziele zu erkennen und zu erreichen.",
+        "Wir laden Rednerinnen ein, die ihre Geschichten teilen und Ehrgeiz sowie Inklusion fördern. Dies befähigt Einzelpersonen, ihre Ziele zu erkennen und zu erreichen.",
       home5title: "Praktische Erfahrung",
       home5:
-        "Wir bieten praktische Erfahrungen durch projektbasiertes Lernen, Mentoring und Workshops, die kulturell auf Mädchen und Frauen in Zentralasien zugeschnitten sind.",
+        "Unser Team bieten praktische Erfahrungen durch projektbasiertes Lernen, Mentoring und Workshops, die kulturell auf Mädchen und Frauen in Zentralasien zugeschnitten sind.",
       home6: "Erfahren Sie hier mehr über unseren Ansatz",
       home7:
         "Entdecken Sie unsere Programme, die dazu entwickelt wurden, WACHSTUM zu INSPIRIEREN und VERÄNDERUNG zu BEFÄHIGEN!",
       home8title: "Mädchen in MINT!",
       home8:
-        "Dieses 2- bis 8-wöchige Programm richtet sich an junge Frauen im Alter von 15-18 Jahren, die UI/UX-Design und die Erstellung von Websites und Apps erlernen möchten. Die Teilnehmerinnen erhalten eine Ausbildung in einer der technischen Disziplinen und präsentieren ein Projekt basierend auf ihren erworbenen Fähigkeiten.",
+        "Dieses 2- bis 8-wöchige Programm richtet sich an junge Frauen im Alter von 15-18 Jahren, die UI/UX-Design und die Web-/App-Entwicklung erlernen möchten. Die Teilnehmerinnen erhalten eine Ausbildung und präsentieren ein Projekt basierend auf ihren erworbenen Fähigkeiten.",
       home9title: "ACCELERATE",
       home9:
         "Accelerate ist ein Online-Training für 300 Unternehmerinnen aus Kasachstan, Kirgisistan und Usbekistan. Die Frauen erhalten Mentoring und Zugang zu Investitionen, um ihr Geschäft auszubauen und neue Partnerschaften zu finden.",
@@ -244,7 +244,7 @@ const resources = {
         "Investieren Sie in die nächste Generation weiblicher Führungskräfte in Kasachstan",
       home17title: "MACHEN SIE HEUTE EINEN UNTERSCHIED!",
       home17:
-        "Wir sammeln Spenden für das Schuljahr 2024-2025, um mindestens 100 Schüler:innen mit einem eigenen Computer und einem WLAN-Hotspot auszustatten, damit sie optimal auf Bewerbungen für Universitäten, Stipendien, Sommerprogramme und Online-Weiterbildungen vorbereitet sind. Helfen Sie uns, noch mehr Schüler:innen in ganz Kasachstan zu erreichen!",
+        "Wir sammeln Spenden für das Schuljahr 2024-2025, um mindestens 100 Schülerinnen mit einem eigenen Computer und einem WLAN-Hotspot auszustatten, damit sie optimal auf Bewerbungen für Universitäten, Stipendien, Sommerprogramme und Online-Weiterbildungen vorbereitet sind. Helfen Sie uns, noch mehr Schüler:innen in ganz Kasachstan zu erreichen!",
       aboutus1title: "Die Bewegung geht weiter",
       aboutus1:
         "Girls Power Fund hat sich zu einer dynamischen Bewegung entwickelt, die Mädchen weltweit inspiriert und stärkt. Unsere Reise ist geprägt von Widerstandsfähigkeit, Wachstum und einem unerschütterlichen Engagement für Gleichheit und Repräsentation. Wir entwickeln weiterhin Programme, die Barrieren durchbrechen und dauerhafte Chancen schaffen, damit jedes Mädchen die Unterstützung erhält, die es braucht, um seine Träume zu verwirklichen.",
@@ -371,9 +371,9 @@ const resources = {
       footer1: "Есть вопрос? Мы ответим!",
       footer2: "Мы свяжемся с вами в течение 72 часов!",
       footer3:
-        "Фонд Girls Power — это платформа, которая помогает девочкам и молодым женщинам через обучение STEM и предпринимательству, наставничество и предоставление возможностей, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
+        "Фонд Girls Power — это платформа, которая помогает девочкам и молодым женщинам через обучение STEM и предпринимательству, наставничество, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
       home1:
-        "Платформа для поддержки девочек и молодых женщин через STEM и предпринимательство, наставничество и возможности, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
+        "Платформа для поддержки девочек и молодых женщин через STEM и предпринимательство, наставничество, развивая их навыки, уверенность и лидерские качества для процветания в мире технологий.",
       joinus: "Присоединяйтесь к нашему сообществу!",
       home2:
         "Вдохновляем следующее поколение новаторов через ПРАКТИЧЕСКОЕ ОБУЧЕНИЕ...",
