@@ -13,26 +13,22 @@ import Image from "react-bootstrap/Image";
 import TextLeft from "../../components/TextLeft";
 import Quote from "../../components/Quote";
 import ImageText from "../../components/ImageText";
-import { Link } from "react-router-dom";
 import YouTube from "react-youtube";
 
 function OurTeam() {
   const { t } = useTranslation();
   const data = {
-    background: "",
     title: t("ourteam1title"),
     text: t("ourteam1"),
   };
 
   const data3 = {
-    background: "background-stripes",
+    background: "background-purple",
     image: presentation_pic,
     alt: "Presentation picture",
-    borderImage: "",
   };
 
   const data4 = {
-    background: "",
     title: t("ourteam4title"),
     text: t("ourteam4"),
     href: "/aboutus/newsandmedia",
@@ -99,10 +95,8 @@ function TeamCards() {
                 className="team-card-image"
                 roundedCircle
               />
-              <p>{card.title}</p>
-              <div className="card-description">
-                <h5>{card.description}</h5>
-              </div>
+              {card.title}
+              <h4>{card.description}</h4>
             </Col>
           ))}
         </Row>
@@ -114,11 +108,9 @@ function TeamCards() {
 function ImageBackground({ data }) {
   return (
     <Container className={`text-image-container ${data.background}`}>
-      <Row className="content-container">
-        <Col md={6} className={`image-section ${data.borderImage}`}>
-          <Link to="https://www.youtube.com/watch?v=nd0E6PLE1EM">
-            <img src={data.image} alt={data.alt} />
-          </Link>
+      <Row className="justify-center">
+        <Col md={10} className="padding-0">
+          <img src={data.image} alt={data.alt} />
         </Col>
       </Row>
     </Container>
@@ -140,20 +132,18 @@ function QuoteCard() {
   ];
 
   return (
-    <div className="background-purple">
-      <Container className="cards-container">
-        <Row className="cards">
-          {cardData.map((card, index) => (
-            <Col className="card" md={10} key={index}>
-              <div className="card-description">
-                <h5>{card.description}</h5>
-              </div>
-              <p>{card.title}</p>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-    </div>
+    <Container className="cards-container background-purple">
+      <Row className="cards">
+        {cardData.map((card, index) => (
+          <Col className="card" md={10} key={index}>
+            <div className="card-description">
+              <h5>{card.description}</h5>
+            </div>
+            {card.title}
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 }
 

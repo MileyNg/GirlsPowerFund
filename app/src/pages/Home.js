@@ -8,7 +8,7 @@ import QuoteLink from "../components/QuoteLink";
 import TextImage from "../components/TextImage";
 import ImageText from "../components/ImageText";
 import QuoteImage from "../components/QuoteImage";
-import Homepic from "../img/home_1.png";
+import Homepic from "../img/Sponsor.png";
 import Grouppic from "../img/pic1.jpg";
 import Workpic from "../img/pic2.jpg";
 import TechGirlsImage from "../img/techgirls.png";

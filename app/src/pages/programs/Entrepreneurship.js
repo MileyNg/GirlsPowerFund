@@ -11,13 +11,12 @@ import ImageQuote from "../../components/ImageQuote";
 import AboutUs2 from "../../img/aboutus2.png";
 import JoinPic from "../../img/join.png";
 import Girl3 from "../../img/QuoteGirl3.png";
-import Grouppic from "../../img/home_1.png";
+import Grouppic from "../../img/pic1.jpg";
 
 function Entrepreneurship() {
   const { t } = useTranslation();
 
   const accelerate = {
-    background: "",
     title: t("home9title"),
     text: t("home9"),
     href: "/donate",
@@ -54,8 +53,10 @@ function Entrepreneurship() {
   };
 
   return (
-    <div className="background-gradient">
-      <TextImage data={accelerate} />
+    <div>
+      <div className="background-gradient">
+        <TextImage data={accelerate} />
+      </div>
       <Quote text={t("entrepreneurshiptitle")} />
       <CardsBenefits />
       <ImageQuote data={quote} />

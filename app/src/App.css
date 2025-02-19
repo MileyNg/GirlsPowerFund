@@ -9,7 +9,7 @@
   text-align: center;
   background-color: white;
   font-family: 'Source Code Pro';
-  font-size: calc(2px + 2vmin);
+  font-size: calc(5px + 2vmin);
 }
 
 .App h1 {
@@ -158,7 +158,6 @@ img {
 .quote-link a {
   color: #14142B;
   text-decoration: none;
-  font-size: 1.15rem;
   font-weight: 500;
 }
 
@@ -185,7 +184,6 @@ img {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .content-container {
@@ -236,7 +234,7 @@ img {
 .quote-text {
   background: white;
   font-family: "Inter";
-  font-size: 1.25rem;
+  font-size: calc(8px + 2vmin);
   font-weight: 600;
   border-radius: 10px 0 0 10px;
   padding: 50px;
@@ -246,7 +244,7 @@ img {
 
 .quote-author {
   padding-top: 15px;
-  font-size: 1.15rem;
+  font-size: calc(6px + 2vmin);
   font-weight: 400;
   color: #b7a8d5 !important;
 }
@@ -262,7 +260,7 @@ img {
 .quote-text-2 {
   background: white;
   font-family: "Inter";
-  font-size: 1.25rem;
+  font-size: calc(8px + 2vmin);
   font-weight: 600;
   border-radius: 0 10px 10px 0;
   padding: 50px;
@@ -287,24 +285,23 @@ img {
 .card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: left;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 .card-image {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #e0e0e0;
   padding: 1rem;
 }
 
 .card-title {
-  font-size: 1.1rem;
-  margin-top: 1.5rem;
+  font-size: calc(5px + 2vmin);
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .card-description {
-  font-size: 0.9rem;
+  font-size: calc(3px + 2vmin);
 }
 
 .custom-badge {
@@ -317,7 +314,18 @@ img {
 }
 
 .team-card-image {
-  width: auto;
   max-width: 100%;
-  height: 11rem;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.padding-0 {
+  padding: 0;
 }

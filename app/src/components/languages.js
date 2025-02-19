@@ -104,8 +104,8 @@ const resources = {
       ourteammember1name: "Aziza Ibragimova",
       ourteammember2: "Project Manager",
       ourteammember2name: "Aassel Amit",
-      ourteammember3: "Program Manager",
-      ourteammember3name: "Aruzhan Nurmakhanova",
+      ourteammember3: "Monitoring and Evaluation Expert",
+      ourteammember3name: "Albina Tortbayeva",
       ourteam2: "A few words from our CEO & Founder",
       ourteam3:
         '"Last year was a period of exponential growth for Girls Power fund. After completing the Obama Scholars Program at Columbia University, I came back with increased motivation, improved skills and network. Our fund received first international grants (from the UK and the US), started its first international program, expanding from just Kazakhstan to other Central Asian countries funded by USAID FGI and transformed from non profit to social venture. Our fund was also awarded as top 45 social projects founded by Young global changers, chosen among 700 applications worldwide."',

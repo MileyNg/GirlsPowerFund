@@ -6,7 +6,7 @@ import Quote from "../../components/Quote";
 import TextImage from "../../components/TextImage";
 import ImageText from "../../components/ImageText";
 import ImageQuote from "../../components/ImageQuote";
-import Grouppic from "../../img/home_1.png";
+import Grouppic from "../../img/pic1.jpg";
 import Workpic from "../../img/pic2.jpg";
 import AboutUs2 from "../../img/aboutus2.png";
 import Girl2 from "../../img/QuoteGirl2.png";

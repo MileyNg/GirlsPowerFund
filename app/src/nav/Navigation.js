@@ -160,7 +160,7 @@ function Navigation() {
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto">
-            <Dropdown align="end" className="language-button">
+            <Dropdown align="end" className="language-button ms-2">
               <Dropdown.Toggle
                 variant="light"
                 id="dropdown-basic"
