@@ -30,6 +30,14 @@
   color: #14142B;
 }
 
+.font-year {
+  font-family: "Source Code Pro";
+  font-size: calc(35px + 2vmin);
+  font-weight: 600;
+  color: #8868ce !important;
+
+}
+
 .App-header {
   background-color: #f3eff7;
   min-height: 100vh;
@@ -304,6 +312,28 @@ img {
   font-size: calc(3px + 2vmin);
 }
 
+.facts-cards {
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.fact-card {
+  box-shadow: 0px -1px 2px 0px rgba(160, 160, 160, 0.2);
+  padding: 2rem 5rem 0rem 5rem;
+  border-radius: 15px !important;
+}
+
+.fact-card-title {
+  font-family: "Inter";
+  font-size: calc(25px + 2vmin);
+  font-weight: bold;
+  color: #8868ce !important;
+  justify-self: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .custom-badge {
   background: linear-gradient(to right, #dac4f9, #b7a8e9);
   padding: 10px 50px;
@@ -320,6 +350,27 @@ img {
 iframe {
   border: 0;
   max-width: 100%;
+}
+
+.money-text {
+  background: white;
+  font-family: "Inter";
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  text-align: left;
+  border-radius: 7px;
+  color: #8868ce !important;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+}
+
+
+.money-text p {
+  font-size: calc(8px + 1vmin);
+  font-weight: lighter;
+  border-radius: 10px;
+  color: rgb(190, 190, 190);
+  margin: 0;
 }
 
 .justify-center {

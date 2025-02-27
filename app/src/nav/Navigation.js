@@ -173,9 +173,6 @@ function Navigation() {
                 <Dropdown.Item onClick={() => changeLanguage("en")}>
                   English
                 </Dropdown.Item>
-                <Dropdown.Item onClick={() => changeLanguage("de")}>
-                  Deutsch
-                </Dropdown.Item>
                 <Dropdown.Item onClick={() => changeLanguage("ru")}>
                   Russian
                 </Dropdown.Item>

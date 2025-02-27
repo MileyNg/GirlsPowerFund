@@ -5,6 +5,7 @@ import Quote from "../components/Quote";
 import TextImage from "../components/TextImage";
 import ImageText from "../components/ImageText";
 import Image from "../components/Image";
+import Text4Text from "../components/Text4Text";
 import Grouppic from "../img/Group.png";
 import Partnerpic from "../img/pic1.jpg";
 import Sponsorpic from "../img/pic7.jpg";
@@ -62,6 +63,7 @@ function GetInvolved() {
       <TextImage data={volunteer} />
       <ImageText data={partner} />
       <TextImage data={sponsorDonation} />
+      <Text4Text />
       <Sponsors />
       <TextImage data={difference} />
     </div>

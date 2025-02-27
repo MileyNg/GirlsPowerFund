@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 import presentation_pic from "../img/presentation.png";
 import "react-vertical-timeline-component/style.min.css";
 import TextImage from "../components/TextImage";
+import FactsCards from "../components/FactsCards";
+import Text4Text from "../components/Text4Text";
 import Sponsorspic from "../img/Sponsors.png";
 import AboutUs2 from "../img/aboutus2.png";
 
@@ -28,6 +30,8 @@ function Impact() {
         <p>{t("ourimpact1")}</p>
         <img src={presentation_pic} alt="Presentation" />
       </Container>
+      <FactsCards />
+      <Text4Text />
       <Sponsors />
       <TextImage data={donate} />
     </div>
