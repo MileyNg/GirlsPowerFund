@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./languages";
 import Educationpic from "../img/pic2.jpg";
 import Representationpic from "../img/pic3.jpg";
-import Experiencepic from "../img/pic4.jpg";
+import Experiencepic from "../img/pic4_stretched.jpg";
 
 function Cards({ background }) {
   const { t } = useTranslation();
@@ -30,7 +30,9 @@ function Cards({ background }) {
       <Row className="cards">
         {cardData.map((card, index) => (
           <Col className="card" md={3} key={index}>
+            <div className="card-image-container">
             <img src={card.image} alt="card-images" className="card-image" />
+            </div>
             {card.title}
             <div className="card-description">{card.description}</div>
           </Col>
