@@ -30,9 +30,7 @@ function Cards({ background }) {
       <Row className="cards">
         {cardData.map((card, index) => (
           <Col className="card" md={3} key={index}>
-            <div className="card-image-container">
             <img src={card.image} alt="card-images" className="card-image" />
-            </div>
             {card.title}
             <div className="card-description">{card.description}</div>
           </Col>
