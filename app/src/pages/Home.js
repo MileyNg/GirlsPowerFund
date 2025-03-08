@@ -14,6 +14,7 @@ import Workpic from "../img/pic2.jpg";
 import TechGirlsImage from "../img/techgirls.png";
 import RiseImage from "../img/rise.png";
 import TechnovationGirlsImage from "../img/technovationgirls.png";
+import WomenInTechImage from "../img/logo-womenintech.png";
 import AboutUs2 from "../img/aboutus2.png";
 import Girl1 from "../img/QuoteGirl1.png";
 import { FaInstagram } from "react-icons/fa";
@@ -115,9 +116,34 @@ function TextImage1() {
 function TechImages() {
   return (
     <Container>
-      <img src={TechGirlsImage} alt="Tech Girls" />
-      <img src={RiseImage} alt="Rise" />
-      <img src={TechnovationGirlsImage} alt="Technovation Girls" />
+      <Row>
+        <Col md={6}>
+          <img
+            src={TechGirlsImage}
+            alt="Tech Girls"
+            className="partner-image"
+          />
+        </Col>
+        <Col md={6}>
+          <img src={RiseImage} alt="Rise" className="partner-image" />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={6}>
+          <img
+            src={TechnovationGirlsImage}
+            alt="Technovation Girls"
+            className="partner-image"
+          />
+        </Col>
+        <Col md={6}>
+          <img
+            src={WomenInTechImage}
+            alt="Women In Tech"
+            className="partner-image"
+          />
+        </Col>
+      </Row>
     </Container>
   );
 }

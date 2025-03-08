@@ -380,3 +380,10 @@ iframe {
 .padding-0 {
   padding: 0;
 }
+
+
+.partner-image {
+  width: 30rem;
+  height: auto;
+  padding: 1rem;
+}
